@@ -192,17 +192,16 @@ def fetch_sec_transcripts(cik: str, ticker: str, max_filings: int = 3) -> pd.Dat
 def build_pipeline():
     # Tickers to process
     tickers = [
-        'AAPL','MSFT','GOOG','AMZN','FB','TSLA','NVDA','JPM','JNJ','V',
+        'AAPL','MSFT','GOOG','AMZN','META','TSLA','NVDA','JPM','JNJ',
         'PG','UNH','HD','DIS','MA','BAC','XOM','PFE','ADBE','CMCSA',
-        'NFLX','KO','ABT','CSCO','PEP','CVX','INTC','T','CRM','NKE',
-        'MRK','ORCL','TMO','WMT','ACN','COST','LLY','TXN','MCD','UNP',
-        'MDT','NEE','QCOM','PM','SCHW','AMGN','IBM','BMY','ANTM','LOW',
-        'VRTX','HON','UPS','C','GE','LIN','LMT','DE','MMM','AXP',
-        'BKNG','RTX','PLD','ADP','BA','SBUX','GILD','BLK','CAT','SPGI',
-        'GS','NOW','AMAT','SYK','ISRG','ZTS','CI','MU','CVS','LRCX',
-        'ADI','EL','CB','MDLZ','MU','SCHW','TEAM','TGT','USB','CCI',
-        'CME','DHR','BDX','ADSK','APD','VRTX','EQIX','ATVI','PNC',
-        'CSX','D','MO','SO','TMUS','SPG','MS','CL','USB','AON'
+        'NFLX','KO','ABT','CSCO','PEP','CVX','INTC','CRM','NKE','MRK',
+        'ORCL','TMO','WMT','ACN','COST','LLY','TXN','MCD','UNP','MDT',
+        'NEE','QCOM','PM','SCHW','AMGN','IBM','BMY','ELV','VRTX','HON',
+        'UPS','C','GE','LIN','LMT','DE','MMM','AXP','BKNG','RTX','PLD',
+        'ADP','BA','SBUX','GILD','BLK','CAT','SPGI','GS','NOW','AMAT',
+        'SYK','ISRG','ZTS','CI','CVS','LRCX','ADI','EL','CB','MDLZ',
+        'MU','TEAM','TGT','USB','CCI','CME','DHR','BDX','ADSK','APD',
+        'EQIX','PNC','CSX','MO','SO','TMUS','SPG','MS','CL','AON'
     ]
 
     # Build cik_map using mapper
