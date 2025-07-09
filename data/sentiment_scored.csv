@@ -1,10 +1,10 @@
 timestamp,ticker,source,text,url,SentimentScore
-2025-02-25 00:00:00+00:00,AAPL,SEC-EDGAR-8K,"(Item 5.07) Submission of Matters to a Vote of Security Holders. The 2025 Annual Meeting of Shareholders (the “Annual Meeting”) of Apple Inc. (“Apple”) was held on February 25, 2025. At the Annual Meeting, Apple’s shareholders voted on the following seven proposals and cast their votes as described below. 1. The individuals listed below were elected at the Annual Meeting to serve as directors of Apple until the next annual meeting of shareholders and until their successors are duly elected and qualified: For Against Abstained Broker Non-Vote Wanda Austin 9,072,076,816 40,131,307 29,197,385 3,038,264,304 Tim Cook 8,970,310,928 153,141,693 17,952,887 3,038,264,304 Alex Gorsky 8,946,626,018 165,324,875 29,454,615 3,038,264,304 Andrea Jung 8,546,796,776 565,487,160 29,121,572 3,038,264,304 Art Levinson 8,479,896,928 633,590,301 27,918,279 3,038,264,304 Monica Lozano 9,024,832,308 87,408,524 29,164,676 3,038,264,304 Ron Sugar 8,632,486,843 478,710,182 30,208,483 3,038,264,304 Sue Wagner 8,744,107,302 368,677,410 28,620,796 3,038,264,304 2. A management proposal to ratify the appointment of Ernst & Young LLP as Apple’s independent registered public accounting firm for fiscal year 2025 was approved. For Against Abstained 11,910,666,249 221,074,424 47,929,139 3. An advisory resolution to approve executive compensation was approved. For Against Abstained Broker Non-Vote 8,397,138,183 691,312,529 52,954,796 3,038,264,304 4. A shareholder proposal entitled “Report on Ethical AI Data Acquisition and Usage” was not approved. For Against Abstained Broker Non-Vote 1,041,899,819 7,963,197,675 136,308,014 3,038,264,304 5. A shareholder proposal entitled “Report on Costs and Benefits of Child Sex Abuse Material-Identifying Software & User Privacy” was not approved. For Against Abstained Broker Non-Vote 802,117,145 8,198,486,901 140,801,462 3,038,264,304 6. A shareholder proposal entitled “Request to Cease DEI Efforts” was not approved. For Against Abstained Broker Non-Vote 210,451,697 8,843,175,086 87,778,725 3,038,264,304 7. A shareholder proposal entitled “Report on Charitable Giving” was not approved. For Against Abstained Broker Non-Vote 169,119,141 8,884,470,350 87,816,017 3,038,264,304",,-0.5
-2025-05-01 00:00:00+00:00,GOOG,SEC-EDGAR-8K,"(Item 8.01) . Other Events. Alphabet Inc. U.S. Dollar-Denominated Bond Offering On May 1, 2025, Alphabet Inc. (“Alphabet”) closed its underwritten public offering of $750,000,000 aggregate principal amount of 4.000% notes due 2030 (the “2030 Notes”), $1,250,000,000 aggregate principal amount of 4.500% notes due 2035 (the “2035 Notes”), $1,500,000,000 aggregate principal amount of 5.250% notes due 2055 (the “2055 Notes”) and $1,500,000,000 aggregate principal amount of 5.300% notes due 2065 (the “2065 Notes” and collectively, the “Notes”) pursuant to Alphabet’s registration statement on Form S-3 (File No. 333-286752). The Notes were issued pursuant to an Indenture (the “Indenture”), dated as of February 12, 2016, between Alphabet and The Bank of New York Mellon Trust Company, N.A., as trustee. The foregoing description of the Indenture is qualified in its entirety by the terms of such agreement, which is filed hereto as Exhibit 4.1 and incorporated herein by reference. The foregoing description of the Notes is qualified in its entirety by reference to the full text of the respective forms of the Notes filed hereto as Exhibit 4.2 with respect to the 2030 Notes, Exhibit 4.3 with respect to the 2035 Notes, Exhibit 4.4 with respect to the 2055 Notes and Exhibit 4.5 with respect to the 2065 Notes, and each incorporated herein by reference.",,0.1
-2025-05-01 00:00:00+00:00,AAPL,SEC-EDGAR-8K,"(Item 2.02) Results of Operations and Financial Condition. On May 1, 2025, Apple Inc. (“Apple”) issued a press release regarding Apple’s financial results for its second fiscal quarter ended March 29, 2025. A copy of Apple’s press release is attached hereto as Exhibit 99.1. The information contained in this Current Report shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing.",,0.0
-2025-05-06 00:00:00+00:00,GOOG,SEC-EDGAR-8K,"(Item 8.01) . Other Events. Alphabet Inc. Euro-Denominated Bond Offering On May 6, 2025, Alphabet Inc. (“Alphabet”) closed its underwritten public offering of €1,500,000,000 aggregate principal amount of 2.500% notes due 2029 (the “2029 Notes”), €1,500,000,000 aggregate principal amount of 3.000% notes due 2033 (the “2033 Notes”), €1,250,000,000 aggregate principal amount of 3.375% notes due 2037 (the “2037 Notes”), €1,250,000,000 aggregate principal amount of 3.875% notes due 2045 (the “2045 Notes”) and €1,250,000,000 aggregate principal amount of 4.000% notes due 2054 (the “2054 Notes” and collectively, the “Notes”) pursuant to Alphabet’s registration statement on Form S-3 (File No. 333-286752). The Notes were issued pursuant to an Indenture (the “Indenture”), dated as of February 12, 2016, between Alphabet and The Bank of New York Mellon Trust Company, N.A., as trustee. The foregoing description of the Indenture is qualified in its entirety by the terms of such agreement, which is filed hereto as Exhibit 4.1 and incorporated herein by reference. The foregoing description of the Notes is qualified in its entirety by reference to the full text of the respective forms of the Notes filed hereto as Exhibit 4.2 with respect to the 2029 Notes, Exhibit 4.3 with respect to the 2033 Notes, Exhibit 4.4 with respect to the 2037 Notes, Exhibit 4.5 with respect to the 2045 Notes and Exhibit 4.6 with respect to the 2054 Notes, and each incorporated herein by reference.",,0.1
-2025-05-12 00:00:00+00:00,AAPL,SEC-EDGAR-8K,"(Item 8.01) Other Events. On May 12, 2025, Apple Inc. (“Apple”) consummated the issuance and sale of $1,500,000,000 aggregate principal amount of its 4.000% Notes due 2028 (the “2028 Notes”), $1,000,000,000 aggregate principal amount of its 4.200% Notes due 2030 (the “2030 Notes”), $1,000,000,000 aggregate principal amount of its 4.500% Notes due 2032 (the “2032 Notes”) and $1,000,000,000 aggregate principal amount of its 4.750% Notes due 2035 (the “2035 Notes” and, together with the 2028 Notes, the 2030 Notes, and the 2032 Notes, the “Notes”), pursuant to an underwriting agreement (the “Underwriting Agreement”) dated May 5, 2025 among Apple and Goldman Sachs & Co. LLC, Barclays Capital Inc., BofA Securities, Inc. and J.P. Morgan Securities LLC, as representatives of the several underwriters named therein. The Notes are being issued pursuant to an indenture, dated as of November 1, 2024 (the “Indenture”), between Apple and The Bank of New York Mellon Trust Company, N.A., as trustee, together with the officer’s certificate, dated May 12, 2025 (the “Officer’s Certificate”), issued pursuant to the Indenture establishing the terms of each series of Notes. The Notes are being issued pursuant to Apple’s Registration Statement on Form S-3 filed with the Securities and Exchange Commission and dated November 1, 2024 (Reg. No. 333-282937) (the “Registration Statement”). Interest on the 2028 Notes, the 2030 Notes, the 2032 Notes, and the 2035 Notes will be paid semi-annually in arrears on May 12 and November 12 of each year, beginning on November 12 , 2025 . The 2028 Notes will mature on May 12, 2028 . The 2030 Notes will mature on May 12, 2030 . The 2032 Notes will mature on May 12, 2032. The 2035 Notes will mature on May 12, 2035 . The Notes will be Apple’s senior unsecured obligations and will rank equally with Apple’s other unsecured and unsubordinated debt from time to time outstanding. The foregoing description of the Notes and related agreements is qualified in its entirety by the terms of the Underwriting Agreement, the Indenture and the Officer’s Certificate (including the forms of the Notes). Apple is furnishing the Underwriting Agreement and the Officer’s Certificate (including the forms of the Notes) attached hereto as Exhibits 1.1 and 4.1 through 4.5, respectively, and they are incorporated herein by reference. The Indenture is filed as Exhibit 4.1 to the Registration Statement. An opinion regarding the legality of the Notes is filed as Exhibit 5.1, and is incorporated by reference into the Registration Statement; and a consent relating to the incorporation of such opinion is incorporated by reference into the Registration Statement and is filed as Exhibit 23.1 by reference to its inclusion within Exhibit 5.1.",,0.1
-2025-05-16 00:00:00+00:00,TSLA,SEC-EDGAR-8K,"(Item 5.02) Departure of Directors or Principal Officers; Election of Directors; Appointment of Principal Officers. (d) On May 15, 2025, John R. (Jack) Hartung was appointed to serve as a member of the Board of Directors (the “Board”) of Tesla, Inc. (“Tesla”), as well as a member of the Audit Committee of the Board, effective as of June 1, 2025. A son-in-law of Mr. Hartung has been a non-executive, salaried employee of Tesla since December 2016, and does not share a household with Mr. Hartung. He is currently a Service Technician at Tesla and earned total compensation for fiscal year 2024, including the value of equity incentives, of approximately $124,000. This compensation was determined in accordance with Tesla’s compensation practices applicable to employees with similar qualifications and responsibilities and holding similar positions. Except as described above, there are no related party transactions between Tesla and Mr. Hartung that would require disclosure under Item 404(a) of Regulation S-K. Mr. Hartung is eligible to receive compensation pursuant to Tesla’s standard outside director compensation package as previously approved by the Board. However, Mr. Hartung has waived any entitlement to cash compensation, until further notice to Tesla otherwise, and has joined the remainder of our Board in waiving equity compensation until such time as new determinations are made by the Board with respect to equity compensation. A copy of the post published on X on May 16, 2025 announcing the appointment of Mr. Hartung to the Board is attached as Exhibit 99.1",,0.1
+2025-02-25 00:00:00+00:00,AAPL,SEC-EDGAR-8K,"(Item 5.07) Submission of Matters to a Vote of Security Holders. The 2025 Annual Meeting of Shareholders (the “Annual Meeting”) of Apple Inc. (“Apple”) was held on February 25, 2025. At the Annual Meeting, Apple’s shareholders voted on the following seven proposals and cast their votes as described below. 1. The individuals listed below were elected at the Annual Meeting to serve as directors of Apple until the next annual meeting of shareholders and until their successors",,0.1
+2025-05-01 00:00:00+00:00,GOOG,SEC-EDGAR-8K,"(Item 8.01) . Other Events. Alphabet Inc. U.S. Dollar-Denominated Bond Offering On May 1, 2025, Alphabet Inc. (“Alphabet”) closed its underwritten public offering of $750,000,000 aggregate principal amount of 4.000% notes due 2030 (the “2030 Notes”), $1,250,000,000 aggregate principal amount of 4.500% notes due 2035 (the “2035 Notes”), $1,500,000,000 aggregate principal amount of 5.250% notes due 2055 (the “2055 Notes”) and $1,500,000,000 aggregate principal amount of 5.300% notes due 2065 (the “2065 Notes” and collectively, the “Notes”)",,0.1
+2025-05-01 00:00:00+00:00,AAPL,SEC-EDGAR-8K,"(Item 2.02) Results of Operations and Financial Condition. On May 1, 2025, Apple Inc. (“Apple”) issued a press release regarding Apple’s financial results for its second fiscal quarter ended March 29, 2025. A copy of Apple’s press release is attached hereto as Exhibit 99.1. The information contained in this Current Report shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or incorporated by reference",,0.0
+2025-05-06 00:00:00+00:00,GOOG,SEC-EDGAR-8K,"(Item 8.01) . Other Events. Alphabet Inc. Euro-Denominated Bond Offering On May 6, 2025, Alphabet Inc. (“Alphabet”) closed its underwritten public offering of €1,500,000,000 aggregate principal amount of 2.500% notes due 2029 (the “2029 Notes”), €1,500,000,000 aggregate principal amount of 3.000% notes due 2033 (the “2033 Notes”), €1,250,000,000 aggregate principal amount of 3.375% notes due 2037 (the “2037 Notes”), €1,250,000,000 aggregate principal amount of 3.875% notes due 2045 (the “2045 Notes”) and €1,250,000,000 aggregate principal amount of",,0.1
+2025-05-12 00:00:00+00:00,AAPL,SEC-EDGAR-8K,"(Item 8.01) Other Events. On May 12, 2025, Apple Inc. (“Apple”) consummated the issuance and sale of $1,500,000,000 aggregate principal amount of its 4.000% Notes due 2028 (the “2028 Notes”), $1,000,000,000 aggregate principal amount of its 4.200% Notes due 2030 (the “2030 Notes”), $1,000,000,000 aggregate principal amount of its 4.500% Notes due 2032 (the “2032 Notes”) and $1,000,000,000 aggregate principal amount of its 4.750% Notes due 2035 (the “2035 Notes” and, together with the 2028 Notes, the",,0.1
+2025-05-16 00:00:00+00:00,TSLA,SEC-EDGAR-8K,"(Item 5.02) Departure of Directors or Principal Officers; Election of Directors; Appointment of Principal Officers. (d) On May 15, 2025, John R. (Jack) Hartung was appointed to serve as a member of the Board of Directors (the “Board”) of Tesla, Inc. (“Tesla”), as well as a member of the Audit Committee of the Board, effective as of June 1, 2025. A son-in-law of Mr. Hartung has been a non-executive, salaried employee of Tesla since December 2016, and",,0.1
 2025-06-01 09:00:19+00:00,TSLA,reddit.com/r/stocks,"Rate My Portfolio - r/Stocks Quarterly Thread June 2025 - Please use this thread to discuss your portfolio, learn of other stock tickers & portfolios like [Warren Buffet's](https://buffett.online/en/portfolio/), and help out users by giving constructive criticism.
 
 Why quarterly?  Public companies report earnings quarterly; many investors take this as an opportunity to rebalance their portfolios.  We highly recommend you do some reading:  Check out our wiki's list of [relevant posts & book recommendations.](https://www.reddit.com/r/stocks/wiki/index/#wiki_relevant_posts.2C_books.2C_wiki_recommendations)
@@ -18,39 +18,10 @@ Be aware of [Business Cycle Investing](https://eresearch.fidelity.com/eresearch/
 If you need help with a falling stock price, check out Investopedia's [The Art of Selling A Losing Position](https://www.investopedia.com/articles/02/022002.asp) and their [list of biases.](https://www.investopedia.com/articles/stocks/08/capital-losses.asp)
 
 Here's a list of all the [previous portfolio stickies.](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3A%22Rate+My+Portfolio%22&restrict_sr=on&sort=new&t=all)",,0.2
-2025-06-12 00:00:00+00:00,GOOG,SEC-EDGAR-8K,"(Item 5.07) . Submission of Matters to a Vote of Security Holders. At the Annual Meeting of Stockholders of Alphabet Inc. (“ Alphabet ”) held on June 6, 2025 (the “ 2025 Annual Meeting ”), Alphabet’s stockholders voted on fifteen proposals as set forth below, fourteen of which are described in detail in Alphabet’s definitive proxy statement on Form 14A filed with the U.S. Securities and Exchange Commission on April 25, 2025 (the “ 2025 Proxy Statement ”). Holders of the shares of Class A common stock were entitled to one vote per share held as of the close of business on April 8, 2025 (the “ Record Date ”) and holders of the shares of Class B common stock were entitled to ten votes per share held as of the Record Date. Holders of the shares of Class A common stock and holders of the shares of Class B common stock voted together as a single class on all matters (including the election of directors) submitted to a vote of stockholders at the 2025 Annual Meeting. The number of votes cast for and against and the number of abstentions and broker non-votes with respect to each matter voted upon are set forth below. 1. The individuals listed below were elected at the 2025 Annual Meeting to serve as directors of Alphabet until the next annual meeting of stockholders or until their respective successors have been duly elected and qualified: Director Nominee For Against Abstentions Broker Non-Votes Larry Page 10,121,464,404 2,385,304,837 8,845,781 619,907,425 Sergey Brin 12,263,834,789 247,015,301 4,764,932 619,907,425 Sundar Pichai 12,361,537,837 149,202,824 4,874,361 619,907,425 John L. Hennessy 10,431,280,085 2,070,369,982 13,964,955 619,907,425 Frances H. Arnold 11,268,748,031 1,231,606,479 15,260,512 619,907,425 R. Martin “Marty” Chávez 12,428,005,794 81,949,854 5,659,374 619,907,425 L. John Doerr 10,666,427,261 1,841,036,733 8,151,028 619,907,425 Roger W. Ferguson Jr. 12,393,814,821 116,162,965 5,637,236 619,907,425 K. Ram Shriram 11,113,038,575 1,394,859,071 7,717,376 619,907,425 Robin L. Washington 11,087,963,501 1,422,117,152 5,534,369 619,907,425 2. The ratification of the appointment of Ernst & Young LLP as Alphabet’s independent registered public accounting firm for the fiscal year ending December 31, 2025 was approved. There were no broker non-votes on this matter. For Against Abstentions 12,573,081,588 557,745,985 4,694,874 2 3. A stockholder proposal regarding “Support for Shareholder Right to Act by Written Consent” was not approved. For Against Abstentions Broker Non-Votes 756,471,373 11,733,418,965 25,724,684 619,907,425 4. A stockholder proposal regarding a financial performance policy was not approved. For Against Abstentions Broker Non-Votes 165,058,366 12,333,347,266 17,209,390 619,907,425 5. A stockholder proposal regarding a report on charitable partnerships was not approved. For Against Abstentions Broker Non-Votes 48,536,978 12,433,633,691 33,444,353 619,907,425 6. A stockholder proposal regarding a request to cease CEI participation was not approved. For Against Abstentions Broker Non-Votes 60,479,418 12,433,074,018 22,061,586 619,907,425 7. A stockholder proposal regarding an enhanced disclosure on climate goals was not approved. For Against Abstentions Broker Non-Votes 1,025,308,238 11,459,258,020 31,048,764 619,907,425 8. A stockholder proposal regarding equal shareholder voting was not approved. For Against Abstentions Broker Non-Votes 3,833,807,319 8,668,262,247 13,545,456 619,907,425 3 9. A stockholder proposal regarding a report on the due diligence process to assess human rights risks in CAHRA was not approved. For Against Abstentions Broker Non-Votes 562,088,943 11,908,869,697 44,656,382 619,907,425 10. A stockholder proposal regarding a report on risks of discrimination in GenAI was not approved. For Against Abstentions Broker Non-Votes 57,074,931 12,419,353,797 39,186,294 619,907,425 11. A stockholder proposal regarding a report on AI data usage oversight was not approved. For Against Abstentions Broker Non-Votes 1,540,824,205 10,905,254,456 69,536,361 619,907,425 12. A stockholder proposal regarding a human rights impact assessment of AI-driven targeted ad policies was not approved. For Against Abstentions Broker Non-Votes 1,783,649,389 10,696,123,222 35,842,411 619,907,425 13. A stockholder proposal regarding a report on alignment of lobbying activities with child safety policies was not approved. For Against Abstentions Broker Non-Votes 655,009,180 11,809,938,038 50,667,804 619,907,425 14. A stockholder proposal regarding a report on online safety for children was not approved. For Against Abstentions Broker Non-Votes 1,162,422,806 11,318,061,535 35,130,681 619,907,425 4 15. A stockholder proposal presented at the 2025 Annual Meeting but not included in the 2025 Proxy Statement regarding a report on implementing AI app preload capabilities into Android OS was not approved. For Against Abstention Broker Non-Votes 342 12,515,614,679 1 619,907,425 5",,0.1
+2025-06-12 00:00:00+00:00,GOOG,SEC-EDGAR-8K,"(Item 5.07) . Submission of Matters to a Vote of Security Holders. At the Annual Meeting of Stockholders of Alphabet Inc. (“ Alphabet ”) held on June 6, 2025 (the “ 2025 Annual Meeting ”), Alphabet’s stockholders voted on fifteen proposals as set forth below, fourteen of which are described in detail in Alphabet’s definitive proxy statement on Form 14A filed with the U.S. Securities and Exchange Commission on April 25, 2025 (the “ 2025 Proxy Statement",,0.1
 2025-07-02 00:00:00+00:00,TSLA,SEC-EDGAR-8K,"(Item 2.02) Results of Operations and Financial Condition. On July 2, 2025, Tesla, Inc. published the press release which is attached hereto as Exhibit 99.1 and is incorporated herein by reference. This information is intended to be furnished under
 
 (Item 2.02) of Form 8-K and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act as shall be expressly set forth by specific reference in such a filing .",,0.1
-2025-07-02 12:23:41+00:00,AAPL,reddit.com/r/stocks,"The private sector lost 33,000 jobs in June, badly missing expectations for a 100,000 increase, ADP says - >Private sector hiring unexpectedly contracted in June, payrolls processing firm ADP said Wednesday, in a possible sign that the economy may not be as sturdy that investors believe as they bid the S&P 500 back up to record territory to end the month.
-
->Private payrolls lost 33,000 jobs in the June, the ADP report showed. Economists polled by Dow Jones forecast an increase of 100,000 for the month. The May job growth figure was revised even lower to just 29,000 jobs added from 37,000.
-
->“Though layoffs continue to be rare, a hesitancy to hire and a reluctance to replace departing workers led to job losses last month,” Nela Richardson, ADP’s chief economist, said in a press release published Wednesday morning.
-
->To be sure, the ADP report has a spotty track record on predicting the subsequent government jobs report, which investors tend to weigh more heavily. May’s soft ADP data ended up differing significantly from the monthly jobs report figures that came later in the week.
-
->This week, the government’s nonfarm payrolls report will be out on Thursday with economists expecting a healthy 110,000 increase for June, per Dow Jones estimates. Economists are expecting the unemployment rate to tick higher to 4.3% from 4.2%. Some economists could revise down their jobs reports estimates following ADP’s data.
-
->Weekly jobless claims data is also due Thursday, with economists penciling in 240,000. This string of labor stats comes during a shortened trading week, with the market closing early on Thursday and remaining dark on Friday in honor of the July 4 holiday.
-
->**Service roles hit hardest**
-
->The bulk of job losses came in service roles tied to professional and business services and health and education, according to the ADP. Professional/business services notched a decline of 56,000, while health/education saw a net loss of 52,000.
-
->Financial activity roles also contributed to this month’s decline with a drop of 14,000 on balance.
-
->But the contraction was capped by payroll expansions in goods-producing roles across industries such as manufacturing and mining. All together, goods-producing positions grew by 32,000 in the month, while payrolls for service roles overall fell by 66,000.
-
->The Midwest and Western U.S. saw the strongest contractions in June, declining by 24,000 and 20,000, respectively. Meanwhile, the Northeast shed 3,000 roles. The Southern U.S. was the sole region tracked by the ADP to see payrolls expand on net in the month, recording an increase of 13,000 positions.
-
->The smallest firms tended to see more job losses this month than their larger counterparts. In fact, businesses with more than 500 employees saw the biggest payroll growth in the month with an increase of 30,000, per the ADP. By comparison, businesses with fewer than 20 employees accounted for 29,000 lost roles on net.
-
->Annualized income growth decreased modestly from May for both job stayers and hoppers. The rate of pay increase for those staying in their jobs ticked down to 4.4% from 4.5%, while those getting new roles slid to 6.8% from 7%.
-
-Link: [https://www.cnbc.com/2025/07/02/adp-jobs-report-june-2025.html](https://www.cnbc.com/2025/07/02/adp-jobs-report-june-2025.html)
-
-My thoughts: Labor data significantly influences Fed policy (of course they might revise this later down the road) which leads to rate changes, market adjusts as a result of those rate changes, and affects volatility as a result, etc etc. So... rate cuts became a lot more likely. ",,-0.6
 2025-07-02 13:10:47+00:00,GOOG,reddit.com/r/stocks,"Tesla reports 14% decline in vehicle deliveries, marking second straight year-over-year drop - Tesla reported over 384,000 vehicle deliveries in the second quarter, a 14% decline from a year ago, and the second straight quarterly drop.
 
 The electric vehicle maker reported 443,956 deliveries during the same period last year.
@@ -67,18 +38,6 @@ Source: [http://cnbc.com/2025/07/02/tesla-tsla-q2-2025-vehicle-delivery-and-prod
 ""These ""OpenAI tokens"" are not OpenAI equity. We did not partner with Robinhood, were not involved in this, and do not endorse it. Any transfer of OpenAI equity requires our approval - we did not approve any transfer.""
 
 ",,-0.8
-2025-07-03 00:26:30+00:00,AAPL,reddit.com/r/stocks,"Can we get a thread of all the bear arguments over the past 20 years going year by year? - Seems no matter what SPY or the economy is doing, there is always some crazy argument of how the market is on the brink of collapse. And yet, SPY continues trucking on up and to the right, leaving doomers in the dust. 
-
-I feel like for some years, there can be 5 different bearish arguments!
-
-Could be a fun exercise lol I will comment each year and please reply with your favorite bear arguments you routinely come across!",,0.2
-2025-07-03 06:10:41+00:00,GOOG,reddit.com/r/stocks,"Uber…shorting the stock as consequences of US tourism slowdown. - The sustained decrease in international tourists in the US is trickling down to ride hailing apps like Uber and Lyft. Bookings in LA, Vegas, Chicago, New York, Orlando decreased an avg of 34%. Seeking guidance on what puts to buy for October expiry.. $70, $75??",,-0.6
-2025-07-03 07:34:43+00:00,AAPL,reddit.com/r/stocks,"What stock in your portfolio would be the best rollercoaster? - Bit of a silly question, but which stock in your portfolio would be the best rollercoaster, based on it's all-time graph. Assume in this scenario that the current date would be the ending station no matter what, so it doesn't have to have crashed down to it's IPO price in order for passengers to get out ;)
-
-I don't own many stocks (I'm a bogle guy myself), but of the one's I have I nominate NBIS (Nebius). I'd pay for that ride...
-
-  
-All-time graph is preferable, but if you can make a funky lil' rollercoaster with the 1Y, 3Y or 5Y - eat your heart out!",,0.2
 2025-07-03 11:47:00+00:00,TSLA,reddit.com/r/stocks,"Archer completes first eVTOL test flight in Abu Dhabi, long leg coming for ACHR? - Midnight just completed its first flight test in Abu Dhabi not some media puff piece but an actual flight in brutal UAE summer conditions (heat, humidity, dust  the full package). That’s a serious move toward commercial deployment.
 
 **Some takeaways:**
@@ -96,7 +55,7 @@ All-time graph is preferable, but if you can make a funky lil' rollercoaster wit
 ***Source:*** https://news.archer.com/archer-begins-test-flights-in-abu-dhabi
 
 If you’re watching ACHR, this feels like one of those quiet milestones that could age really well. Definitely not financial advice, but worth keeping on the radar as the global eVTOL rollout heats up",,0.8
-2025-07-03 12:18:49+00:00,GOOG,reddit.com/r/stocks,"U.S. lifts chip software curbs on China in sign of trade truce - The U.S. government has rescinded its export restrictions on chip-design software to China, three of the largest players in the space announced on Thursday. 
+2025-07-03 12:18:49+00:00,TSLA,reddit.com/r/stocks,"U.S. lifts chip software curbs on China in sign of trade truce - The U.S. government has rescinded its export restrictions on chip-design software to China, three of the largest players in the space announced on Thursday. 
 
 In separate statements, semiconductor software designers Siemens AG, Synopsys, and Cadence all said they received letters from the U.S. Department of Commerce informing them that the controls had been lifted.
 
@@ -105,21 +64,21 @@ https://www.cnbc.com/2025/07/03/us-lifts-chip-software-curbs-on-china-amid-trade
 
 
 ",,0.6
-2025-07-03 12:34:13+00:00,AAPL,reddit.com/r/stocks,"U.S. payrolls increased by 147,000 in June, more than expected - Job growth proved better than expected in June, as the labor market showed surprising resilience in the wake of President Donald Trump’s calls for interest rate cuts.
+2025-07-03 12:34:13+00:00,TSLA,reddit.com/r/stocks,"U.S. payrolls increased by 147,000 in June, more than expected - Job growth proved better than expected in June, as the labor market showed surprising resilience in the wake of President Donald Trump’s calls for interest rate cuts.
 
 Nonfarm payrolls increased a seasonally adjusted 147,000 for the month, higher than the estimate for 110,000, the Bureau of Labor Statistics reported Thursday.
 
 Read more 
 
 https://www.cnbc.com/2025/07/03/jobs-report-june-2025.html",,0.8
-2025-07-03 12:43:48+00:00,GOOG,reddit.com/r/stocks,"With no independent verification, how do we know Joby’s piloted flights weren’t remote? - Joby says it’s completed multiple piloted transition flights, but they haven’t released any raw test data no ADS-B logs, no cockpit comms, no FAA flight tracking IDs, and no telemetry showing manual flight paths.
+2025-07-03 12:43:48+00:00,AAPL,reddit.com/r/stocks,"With no independent verification, how do we know Joby’s piloted flights weren’t remote? - Joby says it’s completed multiple piloted transition flights, but they haven’t released any raw test data no ADS-B logs, no cockpit comms, no FAA flight tracking IDs, and no telemetry showing manual flight paths.
 
 
 In fact, their test aircraft serial S4-2 is known to operate with onboard telemetry uplinks and remote control fallback
 
 In 2022, they operated N542AJ fully remotely when it crashed during high speed dive testing. What’s stopping them from doing the same now, just with a test pilot “monitoring” while control is actually autonomous?
 Until we see third party flight data, this feels more like a marketing milestone than a validated, manually flown eVTOL aircraft",,-0.8
-2025-07-03 15:08:30+00:00,TSLA,reddit.com/r/stocks,"BlackRock Bitcoin ETF Drives More Revenue Than Its S&P 500 Fund - https://www.bloomberg.com/news/articles/2025-07-02/blackrock-bitcoin-etf-drives-more-revenue-than-its-s-p-500-fund
+2025-07-03 15:08:30+00:00,GOOG,reddit.com/r/stocks,"BlackRock Bitcoin ETF Drives More Revenue Than Its S&P 500 Fund - https://www.bloomberg.com/news/articles/2025-07-02/blackrock-bitcoin-etf-drives-more-revenue-than-its-s-p-500-fund
 
 > The iShares Bitcoin Trust ETF (IBIT) has generated more revenue than BlackRock's iShares Core S&P 500 ETF (IVV), with an estimated $187.2 million in annual fees.
 
@@ -131,7 +90,7 @@ Until we see third party flight data, this feels more like a marketing milestone
 With Lucid ramping Gravity SUV production, Q2 deliveries rising, and sentiment shifting from Tesla. I’m taking a swing here.
 
 Premium entry, big upside. Anyone else riding $LCID options this week?",,0.6
-2025-07-03 15:29:55+00:00,GOOG,reddit.com/r/stocks,"Canadian Uber Drivers Join Union, Seeking First Collective Deal - https://www.bloomberg.com/news/articles/2025-07-02/canadian-uber-drivers-join-union-seeking-first-collective-deal
+2025-07-03 15:29:55+00:00,TSLA,reddit.com/r/stocks,"Canadian Uber Drivers Join Union, Seeking First Collective Deal - https://www.bloomberg.com/news/articles/2025-07-02/canadian-uber-drivers-join-union-seeking-first-collective-deal
 
 > Drivers for Uber Technologies Inc. in British Columbia, Canada, joined a union in an effort to negotiate what they said would be the country’s first collective agreement for ride-share drivers.
 
@@ -149,7 +108,7 @@ Also, tariffs potentially back in play on the 8th of July for most countries..is
 Why is everyone euphoric right now?
 
 Not a bear, I'm up 330% this year, last few weeks alone some of my plays have gone up by nearly 100%, but also trying to be realistic here ",,-0.6
-2025-07-03 19:27:35+00:00,AAPL,reddit.com/r/stocks,"Trump’s Tax Bill Ekes Through House. The President Meets His Deadline. - President Donald Trump and Republicans will hit their July 4 deadline to pass the president’s signature tax and spending legislation and sign it into law. Now the pressure will be on to convince voters that Trump’s achievement will make the U.S. economy stronger. Americans thus far aren’t convinced.
+2025-07-03 19:27:35+00:00,TSLA,reddit.com/r/stocks,"Trump’s Tax Bill Ekes Through House. The President Meets His Deadline. - President Donald Trump and Republicans will hit their July 4 deadline to pass the president’s signature tax and spending legislation and sign it into law. Now the pressure will be on to convince voters that Trump’s achievement will make the U.S. economy stronger. Americans thus far aren’t convinced.
 
 The House voted 218-214 to pass the bill, which extends the individual tax cuts that Trump originally signed into law in 2017, among other provisions.
 
@@ -160,12 +119,12 @@ In the end, both groups folded without any changes. Some previous holdouts said 
 Read More:
 https://www.barrons.com/articles/trump-tax-bill-house-pass-9e230859
 ",,-0.6
-2025-07-03 19:33:54+00:00,TSLA,reddit.com/r/stocks,"NVDA near $4 trillion  I’m not chasing blindly, but watching close - NVDA closed today at another all-time high, with a market capitalization of just under $3.9 billion, almost approaching Apple's all-time record. NVDA has been on a tear since its earnings report in late May, and at this point it looks like it's either going to break right through $40 million or end up with some sort of pullback 
+2025-07-03 19:33:54+00:00,AAPL,reddit.com/r/stocks,"NVDA near $4 trillion  I’m not chasing blindly, but watching close - NVDA closed today at another all-time high, with a market capitalization of just under $3.9 billion, almost approaching Apple's all-time record. NVDA has been on a tear since its earnings report in late May, and at this point it looks like it's either going to break right through $40 million or end up with some sort of pullback 
 
 Next week I'll consider two scenarios  If it breaks strongly above $160 by next week, I may make a small call option spread and follow it closely. I don't want to scale up here, but if the disk looks okay, I'll ride the momentum in the short term. If it jumps to the upside and starts to fall sharply, especially if it breaks below VWAP early and can't get back up, I'll probably buy some puts or bear spreads targeting a pullback to the $145 area, where there's been support
 
 I won't lie, this stuff feels frothy. the RSI index is quite stretched and has risen vertically with little to no consolidation. Nonetheless, the AI hype is still very real and a lot of institutional money is still pouring in. As such, I'm not going to call a top, just react to the price action.If semiconductors or large tech stocks fall, I would also look at QQQ and IONQ, NVDA may not be able to stand alone",,0.2
-2025-07-03 20:44:05+00:00,TSLA,reddit.com/r/stocks,"What effect might the BBB have on the European markets on Friday when the US markets are closed? - We now can't see the direct impact of the bill on the US markets until next Monday, because of the July 4th closure and the fact the bill was only passed today after the markets shut. But European markets will be open on Friday, and there are some US companies with secondary listings on them, eg Nvidia has a Euro listing.
+2025-07-03 20:44:05+00:00,GOOG,reddit.com/r/stocks,"What effect might the BBB have on the European markets on Friday when the US markets are closed? - We now can't see the direct impact of the bill on the US markets until next Monday, because of the July 4th closure and the fact the bill was only passed today after the markets shut. But European markets will be open on Friday, and there are some US companies with secondary listings on them, eg Nvidia has a Euro listing.
 
 Will the European reaction tomorrow be muted because we have to wait to see how the US markets react next week? Or will the European markets give us a low-key preview of what we can expect to see in the US next week?",,0.2
 2025-07-03 21:16:28+00:00,TSLA,reddit.com/r/stocks,"Who will win the upcoming robot-as-a-service war? - There are many players in this field already but when this market matures (broad human labor replacement plus maybe some current robot/machines) which company do you think will win? Not saying there's winner takes all situation definitely but we'll see. Also curious if you guys have thoughts on the business model or segments.. will it be Tesla style do it all, Waymo which is more software led or maybe hardware focus like Nvidia.. many variations! ",,0.2
@@ -194,8 +153,8 @@ proposed retaliation list.
 https://finance.yahoo.com/news/mercedes-lvmh-blunting-eu-fight-110845655.html
 
 ",,-0.6
-2025-07-04 00:20:45+00:00,TSLA,reddit.com/r/stocks,Space stocks? - Is it wise for me to focus solely on space related stocks (new acquisition) for a while? I have been doing well with my portfolio (1-2% per trading day). I want to expand into new expanding markets. I did buy some Rocket Labs and Black Sky to dip my toe in. I think that space related companies are going to grow in the next decade. ,,0.6
-2025-07-04 01:07:24+00:00,GOOG,reddit.com/r/stocks,"Will we miss the rally next week? Likely based on 75 years of data. - The following study shows average daily S&P 500 Index returns from five trading days before (days -5 to -1) to five trading days after (days 1 to 5) the end of June from 1950 to 2024.
+2025-07-04 00:20:45+00:00,AAPL,reddit.com/r/stocks,Space stocks? - Is it wise for me to focus solely on space related stocks (new acquisition) for a while? I have been doing well with my portfolio (1-2% per trading day). I want to expand into new expanding markets. I did buy some Rocket Labs and Black Sky to dip my toe in. I think that space related companies are going to grow in the next decade. ,,0.6
+2025-07-04 01:07:24+00:00,TSLA,reddit.com/r/stocks,"Will we miss the rally next week? Likely based on 75 years of data. - The following study shows average daily S&P 500 Index returns from five trading days before (days -5 to -1) to five trading days after (days 1 to 5) the end of June from 1950 to 2024.
 
 [https://www.cxoadvisory.com/calendar-effects/stock-market-behavior-around-the-mid-year-point/](https://www.cxoadvisory.com/calendar-effects/stock-market-behavior-around-the-mid-year-point/)
 
@@ -204,17 +163,17 @@ It shows that there are consistent positive returns for the 5 days following Jul
 Let that sink in, **75 years of data** say the market rallies after July 4th - but the smart money has already moved before you noticed this.
 
 Also: Trump’s ""BBB"" initiative (yes, the acronym sounds exactly like a bra size, and no, that’s probably not a coincidence) is set to pass this week. Markets are treating it as a bullish tailwind.",,0.5
-2025-07-04 04:06:44+00:00,TSLA,reddit.com/r/stocks,"Jane Street barred from Indian markets as regulator freezes $566 million over Nifty 50 manipulation claims - https://www.cnbc.com/2025/07/04/indian-regulator-bars-us-trading-firm-jane-street-from-accessing-securities-market.html
+2025-07-04 04:06:44+00:00,AAPL,reddit.com/r/stocks,"Jane Street barred from Indian markets as regulator freezes $566 million over Nifty 50 manipulation claims - https://www.cnbc.com/2025/07/04/indian-regulator-bars-us-trading-firm-jane-street-from-accessing-securities-market.html
 
 > The Securities Exchange Board of India (SEBI) has temporarily barred Jane Street Group from accessing India’s securities market, after it accused the U.S. firm of widespread market manipulation.
 
 > According to an interim order posted on the regulator’s website on Thursday, Jane Street’s “entities are restrained from accessing the securities market and are further prohibited from buying, selling or otherwise dealing in securities, directly or indirectly.”",,-0.8
-2025-07-04 05:03:34+00:00,GOOG,reddit.com/r/stocks,"FSLR, APPL, CRWV, NVDA seem to be nearing overbought territory to me. What are you looking at? - There not there yet to me, but just curious when people decide to buy a put in an up market on stocks? Are you managing a position or just making a play? What's your dte, especially if earnings are soon?
+2025-07-04 05:03:34+00:00,TSLA,reddit.com/r/stocks,"FSLR, APPL, CRWV, NVDA seem to be nearing overbought territory to me. What are you looking at? - There not there yet to me, but just curious when people decide to buy a put in an up market on stocks? Are you managing a position or just making a play? What's your dte, especially if earnings are soon?
 
   
 Edit: This is a trading, not investing post/question if that was not clear.",,0.2
-2025-07-04 09:23:18+00:00,AAPL,reddit.com/r/stocks,"Bank account in EUR, stocks traded against the USD. Which currency do I set up the account in? - Hi, beginner here. I'm considering IBKR and a few other brokerages, but a question came up - once I'll be setting up the account, should I have it in USD or EUR if the stocks I'm interested in are traded on NYSE, but my bank account is in euros?",,0.0
-2025-07-04 09:30:30+00:00,GOOG,reddit.com/r/stocks,"r/Stocks Daily Discussion & Fundamentals Friday Jul 04, 2025 - This is the daily discussion, so anything stocks related is fine, but the theme for today is on fundamentals, but if fundamentals aren't your thing then just ignore the theme.
+2025-07-04 09:23:18+00:00,TSLA,reddit.com/r/stocks,"Bank account in EUR, stocks traded against the USD. Which currency do I set up the account in? - Hi, beginner here. I'm considering IBKR and a few other brokerages, but a question came up - once I'll be setting up the account, should I have it in USD or EUR if the stocks I'm interested in are traded on NYSE, but my bank account is in euros?",,0.2
+2025-07-04 09:30:30+00:00,AAPL,reddit.com/r/stocks,"r/Stocks Daily Discussion & Fundamentals Friday Jul 04, 2025 - This is the daily discussion, so anything stocks related is fine, but the theme for today is on fundamentals, but if fundamentals aren't your thing then just ignore the theme.
 
 Some helpful day to day links, including news:
 
@@ -309,7 +268,7 @@ New 1% tax on transfers of money to foreign countries.  (This is currently tackl
 Restrictions on some immigrants' access to health coverage premium credits.
 
 Gamblers would be limited to a 90% deduction on losses against their winnings.",,0.8
-2025-07-04 13:11:22+00:00,TSLA,reddit.com/r/stocks,"Trump says he is about to raise tariffs as high as 70% on some countries - [https://www.cnn.com/2025/07/04/business/tariff-letters-trump](https://www.cnn.com/2025/07/04/business/tariff-letters-trump)
+2025-07-04 13:11:22+00:00,AAPL,reddit.com/r/stocks,"Trump says he is about to raise tariffs as high as 70% on some countries - [https://www.cnn.com/2025/07/04/business/tariff-letters-trump](https://www.cnn.com/2025/07/04/business/tariff-letters-trump)
 
 >Trump early Friday at Joint Base Andrews told reporters that he would notify 10 to 12 nations a day over the course of the next five days, detailing their new tariffs in letters that the White House would begin sending on Friday. In most cases, the new rates would go into effect August 1, Trump said.
 
@@ -320,7 +279,6 @@ Gamblers would be limited to a 90% deduction on losses against their winnings.",
 >""They’ll start to pay on August 1. The money will start to come into the United States on August 1, in pretty much all cases,” Trump said.
 
 TACO or no? He might not even have decided yet. Logic says expect some red on Monday, but there's plenty of time til then... S&P futures down ~0.7% as of 9:15 ET",,-0.8
-2025-07-04 15:35:56+00:00,TSLA,reddit.com/r/stocks,Market green for rest of the month since no tariffs? - I'd assume the market will be rallying for the rest of this month given obbba passed and tariffs have been delayed till August. Is there any catalysts to be worried about or we looking at 650  end of month?,,0.4
 2025-07-04 15:46:28+00:00,AAPL,reddit.com/r/stocks,"Carmakers Seek to Offset Tariffs as EU-US Trade Talks Near End - Some European Union carmakers and capitals are pushing for an agreement with President Donald Trump that would allow for tariff relief in return for increasing investments in the US, according to people familiar with the matter.
 
 
@@ -369,14 +327,14 @@ The bloc has also prepared an additional list of tariffs on €95 billion of Ame
 
   
 Link: [https://www.bloomberg.com/news/articles/2025-07-04/carmakers-seek-to-offset-tariffs-as-eu-us-trade-talks-near-end?srnd=homepage-americas](https://www.bloomberg.com/news/articles/2025-07-04/carmakers-seek-to-offset-tariffs-as-eu-us-trade-talks-near-end?srnd=homepage-americas)",,0.1
-2025-07-04 15:52:26+00:00,GOOG,reddit.com/r/stocks,"Volvo Trucking on autonomy - AUR - https://www.newsweek.com/future-autonomous-trucking-being-tested-today-2087455
+2025-07-04 15:52:26+00:00,TSLA,reddit.com/r/stocks,"Volvo Trucking on autonomy - AUR - https://www.newsweek.com/future-autonomous-trucking-being-tested-today-2087455
 
 It’s hilarious that people are so excited about flying cars that are going to have a minimal impact on the transportation system, when self driving trucks, made by manufacturers as part of their evolution, receive so little focus.
 
 Time to buy in.
 ",,0.2
-2025-07-04 16:43:19+00:00,AAPL,reddit.com/r/stocks,"Could someone clarify the ordeal with the tariffs - In a recent post i made, I thought the tariffs were delayed to August, but countries apparently start paying in August? Then I also saw that current rates starting from July 9 will be 10% for all but wasn't that literally in place?? Then there was mention of tariff rates climbing to 70% but I'm not sure what that's implying, is that July 9 or in August? I'd assume the market already priced in the current 10% so why would markets be dipping on that if it stays 10% for all on July 9? I'm not sure what to make of this, seems like misdirection.",,-0.6
-2025-07-04 16:48:58+00:00,GOOG,reddit.com/r/stocks,"Seeking accurate, up to date, analysts' forecasts - They are not the be all and end all, but I do like consider analysts forecasts.
+2025-07-04 16:43:19+00:00,AAPL,reddit.com/r/stocks,"Could someone clarify the ordeal with the tariffs - In a recent post i made, I thought the tariffs were delayed to August, but countries apparently start paying in August? Then I also saw that current rates starting from July 9 will be 10% for all but wasn't that literally in place?? Then there was mention of tariff rates climbing to 70% but I'm not sure what that's implying, is that July 9 or in August? I'd assume the market already priced in the current 10% so why would markets be dipping on that if it stays 10% for all on July 9? I'm not sure what to make of this, seems like misdirection.",,-0.5
+2025-07-04 16:48:58+00:00,AAPL,reddit.com/r/stocks,"Seeking accurate, up to date, analysts' forecasts - They are not the be all and end all, but I do like consider analysts forecasts.
 
 When I look at various sites, I see quite a variance. Some of it, no doubt, because it hasn't been updated recently, and some, maybe, because they are looking at different analysts.
 
@@ -384,12 +342,12 @@ What's a good, free, accurate, up to date, website to get analysts' forecasts? O
 2025-07-04 20:21:46+00:00,GOOG,reddit.com/r/stocks,"How to find steady climbers on Finviz? - This question is for the Finviz users, since I believe this is the best screener (free that is). I missed out on so many good stocks that have been steadily climbing for some time, what settings are the best to find nice orderly climbers that are up at least like 30% in 2-3 months?
 
 Most questions similar to this are asking about how to identify breakout stocks, I am just looking to find ones that are slowly and steadily climbing for some time.",,0.2
-2025-07-04 21:00:22+00:00,GOOG,reddit.com/r/stocks,"At which stage of AI are we in compared to Internet (world wide web)? - I am 60 years old and always remember the very first time that I heard someone comment that the the “World Wide Web” was the biggest thing to ever occur.  It was 1994.  Surely enough, it was HUGE and literally everyone went out to buy personal computers and get an AOL account within the next few years.   I’ll bet that guy must be loaded today.  I could be wrong, but I personally had just started hearing and reading about the World Wide Web.   
+2025-07-04 21:00:22+00:00,TSLA,reddit.com/r/stocks,"At which stage of AI are we in compared to Internet (world wide web)? - I am 60 years old and always remember the very first time that I heard someone comment that the the “World Wide Web” was the biggest thing to ever occur.  It was 1994.  Surely enough, it was HUGE and literally everyone went out to buy personal computers and get an AOL account within the next few years.   I’ll bet that guy must be loaded today.  I could be wrong, but I personally had just started hearing and reading about the World Wide Web.   
 We are constantly reading that AI will take over many jobs in the US, but I think that we have only seen the beginning of it.  Could we be upon the precipice of a new REVOLUTION?  The NASDAQ certainly seems to think so.    
 
 What are your opinions?  ",,0.5
 2025-07-04 22:32:33+00:00,TSLA,reddit.com/r/stocks,"Need help with Unit Offering - I need help understanding ""Unit Offering"". I bought 600 units of Monogram Unit Offering for $2.25 each (total of $1350) back in September 2024. My warranty is about to expire soon and when I try to exercise my 600 shares, it asks me to pay Exercise Amount of $2,025. Does this mean I am paying a total of $3,375 (+ processing fee) to get 600 shares ???",,-0.8
-2025-07-04 22:51:19+00:00,TSLA,reddit.com/r/stocks,"suggest a book to learn to analyze and pick stocks, that is relevant to current times. - Hello, I am trying to learn how to analyze companies and pick stocks. So far I read 1-2 books that are easy to read and understand for me. There are many famous books that are treated as  bible for stock market investing - like intelligent investor, one up on Wall Street, common stocks uncommon profits etc. I am not trying to learn trading.
+2025-07-04 22:51:19+00:00,AAPL,reddit.com/r/stocks,"suggest a book to learn to analyze and pick stocks, that is relevant to current times. - Hello, I am trying to learn how to analyze companies and pick stocks. So far I read 1-2 books that are easy to read and understand for me. There are many famous books that are treated as  bible for stock market investing - like intelligent investor, one up on Wall Street, common stocks uncommon profits etc. I am not trying to learn trading.
 
 I attempted to read ""intelligent investor"" but it was too difficult for me comprehend and it is huge book. I am thinking of reading  ""common stocks uncommon profits"" next.
 
@@ -400,7 +358,7 @@ At the time these books were written several of the current big companies were i
 Could someone suggest me a book that more relevant to current times that explains what different terms mean, how to use them to pick stocks, how to evaluate companies etc and something less dense that ""intelligent investor"" and more than ""what is a stock"".
 
 Thank you very much for your time.",,0.2
-2025-07-04 23:27:17+00:00,AAPL,reddit.com/r/stocks,"What stock/investment has been your best decision in your portfolio? - Hi all. As my portfolio expands into new industries, I really wish to diversify. Ive done my research individually and through Vanguard and have been looking for different stocks to move in the direction of. 
+2025-07-04 23:27:17+00:00,TSLA,reddit.com/r/stocks,"What stock/investment has been your best decision in your portfolio? - Hi all. As my portfolio expands into new industries, I really wish to diversify. Ive done my research individually and through Vanguard and have been looking for different stocks to move in the direction of. 
 
 As of recent, I bought shares in APH, FIX, and VGK (etf). This was after a bit of research and advice. I went for VGK as it is very very slow but seems to be consistent enough to where im willing to invest a bit in it (also due to a hint of hesitancy in the American market). 
 
@@ -434,7 +392,7 @@ Update: the US Navy just gave PL sole award for a major navy contract (undisclos
 
 https://piee.eb.mil/sol/xhtml/unauth/search/oppMgmtLink.xhtml?noticeId=N66001-25-Q-6238&noticeType=SpecialNotice
 ",,0.8
-2025-07-05 02:39:05+00:00,AAPL,reddit.com/r/stocks,"Why ChatGPT / LLMs can never replace stock pickers - ChatGPT, Grok, Gemini are based on LLMs that fundamentally cannot have epistemic knowledge.
+2025-07-05 02:39:05+00:00,TSLA,reddit.com/r/stocks,"Why ChatGPT / LLMs can never replace stock pickers - ChatGPT, Grok, Gemini are based on LLMs that fundamentally cannot have epistemic knowledge.
 
 Epistemic knowledge refers to knowledge about knowledge.
 
@@ -469,7 +427,7 @@ Reality?
 LLMs may replace some stock pickers (perhaps those with a factor bias), but really will only complement a skilled investor (it is the role of the pm to understand the LLMs limitations though).
 
 As any skilled stock investor will tell you, epistemics is not what drives alpha completely - capital allocation, macro framing, risk mgmt, and ability to identify pre-consensus narratives are all important.",,0.1
-2025-07-05 09:30:31+00:00,GOOG,reddit.com/r/stocks,"/r/Stocks Weekend Discussion Saturday - Jul 05, 2025 - This is the weekend edition of our stickied discussion thread.  Discuss your trades / moves from last week and what you're planning on doing for the week ahead.
+2025-07-05 09:30:31+00:00,TSLA,reddit.com/r/stocks,"/r/Stocks Weekend Discussion Saturday - Jul 05, 2025 - This is the weekend edition of our stickied discussion thread.  Discuss your trades / moves from last week and what you're planning on doing for the week ahead.
 
 Some helpful links:
 
@@ -484,8 +442,8 @@ If you have a basic question, for example ""what is EPS,"" then google ""investo
 Please discuss your portfolios in the [Rate My Portfolio sticky.](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3A%22Rate+My+Portfolio%22&restrict_sr=on&sort=new&t=all).
 
 See our past [daily discussions here.](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+%22r%2Fstocks+daily+discussion%22&restrict_sr=on&sort=new&t=all)  Also links for:  [Technicals](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Atechnicals&restrict_sr=on&include_over_18=on&sort=new&t=all) Tuesday, [Options Trading](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Aoptions&restrict_sr=on&include_over_18=on&sort=new&t=all) Thursday, and [Fundamentals](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Afundamentals&restrict_sr=on&include_over_18=on&sort=new&t=all) Friday.",,0.1
-2025-07-05 11:44:06+00:00,GOOG,reddit.com/r/stocks,"What are your plays on Monday after Trump's Big Beautiful Bill has passed? - My main thought is car dealerships, who will benefit from both the EV rush until September 30th and the tax breaks for US assembeled vehicles, but I'll admit I'm quite out of my depth here and would love to hear your thoughts.",,0.2
-2025-07-05 14:30:38+00:00,TSLA,reddit.com/r/stocks,"Relatives don’t want to invest because “they don’t have the money to do all that trading” - I’m in my 40’s and investing has benefited me over the years.  No matter how good stocks have been to me, there are always people and relatives that are a combination of risk averse and ignorant to investing.
+2025-07-05 11:44:06+00:00,AAPL,reddit.com/r/stocks,"What are your plays on Monday after Trump's Big Beautiful Bill has passed? - My main thought is car dealerships, who will benefit from both the EV rush until September 30th and the tax breaks for US assembeled vehicles, but I'll admit I'm quite out of my depth here and would love to hear your thoughts.",,0.5
+2025-07-05 14:30:38+00:00,GOOG,reddit.com/r/stocks,"Relatives don’t want to invest because “they don’t have the money to do all that trading” - I’m in my 40’s and investing has benefited me over the years.  No matter how good stocks have been to me, there are always people and relatives that are a combination of risk averse and ignorant to investing.
 
 I used to get into these conversations more but not so often anymore.  
 
@@ -505,7 +463,7 @@ How can we encourage people to actually invest?",,0.5
 What are my options ? Should i create an account on a new broker? If so which one do you recommend for this type of maneuver?
 
 Thank you for your attention to this matter :)",,0.2
-2025-07-05 16:00:35+00:00,AAPL,reddit.com/r/stocks,"r/Stocks Weekly Thread on Meme Stocks Saturday - Jul 05, 2025 - The meme stock scheduled posts will now run weekly and post Saturday afternoon and won't be a sticky; you're probably seeing this because automod sent you here!
+2025-07-05 16:00:35+00:00,TSLA,reddit.com/r/stocks,"r/Stocks Weekly Thread on Meme Stocks Saturday - Jul 05, 2025 - The meme stock scheduled posts will now run weekly and post Saturday afternoon and won't be a sticky; you're probably seeing this because automod sent you here!
 
 [Full list of meme stocks here.](https://www.reddit.com/r/stocks/wiki/meme-stocks)  This will be updated every once in a while.
 
@@ -524,12 +482,12 @@ Lastly if you need professional help:
 
 * Problem Gambling:  Call/Text: 1-800-522-4700 or [chat online now.](https://WWW.NCPGAMBLING.ORG/CHAT)
 * Crisis Hotline (24/7): 1-800-273-TALK (8255) (Veterans, press 1) or Text “HOME” to 741-741",,0.2
-2025-07-05 17:02:40+00:00,TSLA,reddit.com/r/stocks,"Waymo's moat is overrated. AVs will become a commodity not a winner take all - There’s a popular view that Waymo will dominate AVs like Google did with search. But that oversimplifies how transport, hardware, and regulation actually work. AVs likely won’t be winner-take-all. More likely, autonomy becomes a commodity layer like smartphone OS or GPS chips where value shifts to branding, logistics, and vertical integration.
+2025-07-05 17:02:40+00:00,GOOG,reddit.com/r/stocks,"Waymo's moat is overrated. AVs will become a commodity not a winner take all - There’s a popular view that Waymo will dominate AVs like Google did with search. But that oversimplifies how transport, hardware, and regulation actually work. AVs likely won’t be winner-take-all. More likely, autonomy becomes a commodity layer like smartphone OS or GPS chips where value shifts to branding, logistics, and vertical integration.
 
 Even if Waymo has the best tech, that doesn’t guarantee market control. Car makers can build or license AV systems. Delivery and ride-share players  may care more about cost and scale than whose software is inside.
 
-Once the tech stabilizes, margins shrink and the real competition moves up the stack. What do you think is the market overrating Waymo’s moat? Or is AV dominance still on the table?",,-0.6
-2025-07-05 20:43:44+00:00,TSLA,reddit.com/r/stocks,"Is holding individual stocks worth the stress anymore? - I used to think I could beat the market by picking my own stocks. But between earnings roulette, random macro shocks, and hype cycles, I’m starting to feel like just holding VTI/VT is the move.
+Once the tech stabilizes, margins shrink and the real competition moves up the stack. What do you think is the market overrating Waymo’s moat? Or is AV dominance still on the table?",,0.2
+2025-07-05 20:43:44+00:00,GOOG,reddit.com/r/stocks,"Is holding individual stocks worth the stress anymore? - I used to think I could beat the market by picking my own stocks. But between earnings roulette, random macro shocks, and hype cycles, I’m starting to feel like just holding VTI/VT is the move.
 
 Anyone else switch from active to passive recently?",,0.2
 2025-07-05 20:45:42+00:00,GOOG,reddit.com/r/stocks,"Canada may financially support aluminum producers like Rio Tinto if U.S. 50% tariffs persist past July 21 - Saw the Reuters article about Canada maybe giving financial support to aluminum producers if the US keeps the 50% tariffs. Honestly, kind of a wild setup
@@ -540,7 +498,7 @@ Canada is one of the world's largest aluminum exporters, last year exported abou
 2025-07-05 20:52:51+00:00,TSLA,reddit.com/r/stocks,"Need Advice, Screwed Up - My portfolio was doing great pre-liberation day and was up very big however it was all in risky, very speculative stocks. When liberation day came, I panicked and sold off everything. I would’ve held had I been in standard Index funds, but my risky positions scared me as I didn’t know if these speculative plays would ever come back. Now here I am, down 15% YTD and depressed. Lots of lessons learned. 
 
 Moving on from this I want to get back to the typical boglehead portfolio, while keeping maybe 5-10% for individual plays. However, I’m afraid about entering now at ATHs. How do you recommend I get back in to the market. Should I DCA, lump sum, or wait it out a few months? My retirement age is still 30+ years away thankfully. ",,-0.6
-2025-07-05 23:35:18+00:00,TSLA,reddit.com/r/stocks,"sbet ETH Treasury Stock - Recently with crypto gaining momentum. Crypto treasury stocks such as mstr have been top performers. I believe sbet will join this list of top performing crypto treasury companies.
+2025-07-05 23:35:18+00:00,GOOG,reddit.com/r/stocks,"sbet ETH Treasury Stock - Recently with crypto gaining momentum. Crypto treasury stocks such as mstr have been top performers. I believe sbet will join this list of top performing crypto treasury companies.
 
 The difference being that it holds eth. Sbet (SharpLink Gaming) main objective is to get you as much eth per share as possible. When the strategy for acquiring eth was announced the price immediately went from single digits to over 100 dollars per share, and preceded to collapse based on misunderstanding in s3 filing.
 
@@ -558,7 +516,7 @@ Heres my top 8 reasons for v shaped recovery on the ticker back to new highs:
 * Round 50% (estimate from coin gecko report) of all stable coins lives on Eth with stable coins growth projected to 10x in the next 5 years. Look at circle and genius act. Treasury secretary Scott Bessent supported this act, and adoption of stable coins. This can be the next catalyst that drives eth price appreciation. (NFTs were major driver for eth in 2021 and has since faded but stable coin adoption is institutional which makes it lot more stable)
 * Institutional adoption of stable coins will spark institutional acquisition of eth to help it stabilize the network.
 * Clean financials. The company has no debt ",,0.8
-2025-07-05 23:35:27+00:00,AAPL,reddit.com/r/stocks,"The BBB will make the US a riskier investment for foreign governments holding assets traded with dollars. No more global trade currency. - The Big Beautiful Bill will make the US a riskier investment for foreign governments holding assets traded with dollars, this increases our risk of no longer being the reserve currency of the world and has the potential to cause fallout if we don't have an economic boom to justify spending.
+2025-07-05 23:35:27+00:00,GOOG,reddit.com/r/stocks,"The BBB will make the US a riskier investment for foreign governments holding assets traded with dollars. No more global trade currency. - The Big Beautiful Bill will make the US a riskier investment for foreign governments holding assets traded with dollars, this increases our risk of no longer being the reserve currency of the world and has the potential to cause fallout if we don't have an economic boom to justify spending.
 
   
 The US credit rating was downgraded to Aa1 by Moody's in 2023 citing inability to control debt and interest payments, aswell as the potential for the 2017 TCJA tax cuts extentions to add more deficit to debt. Other credit rating agencies have been downgrading the US aswell since 2011.
@@ -582,8 +540,8 @@ The tax breaks from the “big beautiful bill” will help billionaires  to buy 
 
 I have no money left to buy any dips if I want, and no balls left to short the market when needed. I am in torpor, mouth wide open..
 Someone replied: what is this ? a rant, an opinion or topic to discuss? Well it is all of that, because we are living in crazy times.",,0.1
-2025-07-06 08:04:05+00:00,AAPL,reddit.com/r/stocks,Are American microchips a valid long term investing strategy? - Something like 90% of them are in Taiwan. Is there any companies that recreate that boom if Taiwan ever falls to tbe CCP? Even base layer companies I’d be happy with as i know it’s a 10-20 year investment. ,,0.2
-2025-07-06 14:37:31+00:00,GOOG,reddit.com/r/stocks,"Post the 5 largest positions in your portfolio. - I’m curious what other people’s biggest bets are. .. Can also post position size/how long you’ve held (or first bought), rationale/why you bought it, but that’s optional. I’ll start:
+2025-07-06 08:04:05+00:00,GOOG,reddit.com/r/stocks,Are American microchips a valid long term investing strategy? - Something like 90% of them are in Taiwan. Is there any companies that recreate that boom if Taiwan ever falls to tbe CCP? Even base layer companies I’d be happy with as i know it’s a 10-20 year investment. ,,0.2
+2025-07-06 14:37:31+00:00,TSLA,reddit.com/r/stocks,"Post the 5 largest positions in your portfolio. - I’m curious what other people’s biggest bets are. .. Can also post position size/how long you’ve held (or first bought), rationale/why you bought it, but that’s optional. I’ll start:
 
 1. Alphabet, 9k, Q1 2023, undervalued…
 2. AMD, 7k, Q4 2024, will play out nicely in next years to come I believe. 
@@ -591,9 +549,9 @@ Someone replied: what is this ? a rant, an opinion or topic to discuss? Well it 
 4. First solar, 2.1k, Q4 2024, fears about IRA tax credits being at risk always seemed wrong to me… do think it’s very undervalued and has good growth prospects. not necessarily a big conviction play for me, but somehow have built a large position…. Actually didn’t realise this was my fifth largest hold until posting this…!
 5. Pfizer, 2.1k, Q2 2023 (and been averaging down ever since). Long term hold because of potential pipeline and divvy 
 
-Other than Pfizer I’m up on all these positions. ",,0.6
-2025-07-06 16:27:28+00:00,GOOG,reddit.com/r/stocks,"Stocks to watch from the BBB - With the big beautiful bill going into effect, what stocks should I watch for puts and calls? Open to any and all input from you guys as I’m about two years into trading and I’m trying to learn how and what to watch. ",,0.2
-2025-07-06 16:46:54+00:00,GOOG,reddit.com/r/stocks,"What is happening with tariffs? - Tariffs or not??
+Other than Pfizer I’m up on all these positions. ",,0.5
+2025-07-06 16:27:28+00:00,TSLA,reddit.com/r/stocks,"Stocks to watch from the BBB - With the big beautiful bill going into effect, what stocks should I watch for puts and calls? Open to any and all input from you guys as I’m about two years into trading and I’m trying to learn how and what to watch. ",,0.2
+2025-07-06 16:46:54+00:00,TSLA,reddit.com/r/stocks,"What is happening with tariffs? - Tariffs or not??
 
 News been pumping about tariff hikes moved to August 1? But then does that mean there's no tariffs from July 9? What is the outcome of this on July 9? I would assume that this would result in another green week but I would like some opinions because American tariffs become too confusing for me to follow. 
 
@@ -604,7 +562,7 @@ Base 10%, hikes for some, or nothing?
 This will make accounting easier for them at tax time.
 
 Just curious.",,0.1
-2025-07-06 17:43:36+00:00,GOOG,reddit.com/r/stocks,"Very high goodwill (Progress Software) - We use this funky old database at my company called Progress OpenEdge.
+2025-07-06 17:43:36+00:00,TSLA,reddit.com/r/stocks,"Very high goodwill (Progress Software) - We use this funky old database at my company called Progress OpenEdge.
 
 I thought the software was funky, but looked at their financials and they ain't pretty either.  In the last quarter they had 17 million net income on 240 million revenue.
 
@@ -613,14 +571,14 @@ Would you run mission-critical database engine, which is sold by a company that 
 If that isn't scary, I look at the balance sheet and noticed they have 2.4 billion in assets, of which 2 billion is goodwill.  How the heck does a company's balance sheet consist of almost entirely goodwill?  I'm assuming software companies have lots of intangible goodwill on their balance sheets, but this seems very high for any sort of company.  If I was an investor in PRGS, I'd almost prefer that the intangibles consisted of Bitcoin instead of goodwill (.. Bitcoin's value is debatable, but there are more people who will agree about it than the people who agree about the value of PRGS goodwill).  It's really scary when Bitcoin seems to have even more legitimacy than other types of intangible financial assets.
 
 ",,-0.8
-2025-07-06 18:24:09+00:00,AAPL,reddit.com/r/stocks,"Trump team moves goalposts on tariffs again - https://www.politico.com/news/2025/07/06/bessent-trump-tariffs-deadline-august-00440522
+2025-07-06 18:24:09+00:00,GOOG,reddit.com/r/stocks,"Trump team moves goalposts on tariffs again - https://www.politico.com/news/2025/07/06/bessent-trump-tariffs-deadline-august-00440522
 
 > Tariffs will revert back to their April 2 rates on Aug. 1 for countries that fail to nail down new trade deals with the United States, Treasury Secretary Scott Bessent said Sunday, just three days before the Trump administration’s initial July 9 deadline for tariffs to return.
 
 > Bessent told CNN’s “State of the Union” that the Trump administration would be sending out letters to 100 smaller countries “saying that if you don’t move things along, then on August 1st, you will boomerang back to your April 2nd tariff level.”
 
-> The announcement effectively pushes back the tariffs that were originally set in April but had been suspended until July 9, a window the Trump administration used to pursue an ambitious round of dealmaking with other countries aimed at reaching deals to stave off the return of tariffs of between 10 and 50 percent on dozens of countries. It comes as Trump administration officials increasingly hint at difficulties in nailing down deals.",,-0.5
-2025-07-06 21:54:38+00:00,AAPL,reddit.com/r/stocks,"Inexpensive company stocks Question - When I look at the Gainers or even read a news article, I am always seeing some inexpensive stocks (less than $10/shr) that trade enormously and explode in price overnight.  Wouldn’t it be possible for 1 investor or a group to all agree to buy that stock on the same trading day?  If so, wouldn’t the share price balloon quickly, then sell at the same time and profit greatly?  Is it possible? Done frequently?, Illegal?   Thanks. ",,0.2
+> The announcement effectively pushes back the tariffs that were originally set in April but had been suspended until July 9, a window the Trump administration used to pursue an ambitious round of dealmaking with other countries aimed at reaching deals to stave off the return of tariffs of between 10 and 50 percent on dozens of countries. It comes as Trump administration officials increasingly hint at difficulties in nailing down deals.",,-0.6
+2025-07-06 21:54:38+00:00,GOOG,reddit.com/r/stocks,"Inexpensive company stocks Question - When I look at the Gainers or even read a news article, I am always seeing some inexpensive stocks (less than $10/shr) that trade enormously and explode in price overnight.  Wouldn’t it be possible for 1 investor or a group to all agree to buy that stock on the same trading day?  If so, wouldn’t the share price balloon quickly, then sell at the same time and profit greatly?  Is it possible? Done frequently?, Illegal?   Thanks. ",,0.2
 2025-07-06 22:02:47+00:00,GOOG,reddit.com/r/stocks,"What Would a NAPS Portfolio Look Like in the U.S.? - For those unfamiliar, NAPS stands for No-Admin Portfolio System, and it’s a popular UK-based investing strategy developed by Stockopedia. The idea is simple: create a low-maintenance, rules-based stock portfolio designed to beat the market without constant oversight.
 
 # What is NAPS?
@@ -647,8 +605,8 @@ This got me thinking: what would a U.S.-based NAPS portfolio look like if you ap
 * Rebalance once a year
 * Set it and forget it
 
-The question is: which 20 stocks would make the list right now?",,0.5
-2025-07-06 22:21:10+00:00,GOOG,reddit.com/r/stocks,"Could leveraged ETFs make much money on July 9 when Trump's deadline expires and he wants to raise tariffs? Any thoughts would be welcome! - My general thesis is that on July 9, the Stock Market may crash because that's when the foolishness of Trump's trade tariffs will be made clear when his 90 Day Tariffs end on that day. He will not have anything like a clear plan and will not have any countries willing to sign on with him. At that point, the trade-policy gobbledygook will suddenly evaporate and we will have a much clearer view of the the threats to our economy, these including: inflation, rises in cost of living, unemployment, uncertainty and apprehension about the future, etc.
+The question is: which 20 stocks would make the list right now?",,0.6
+2025-07-06 22:21:10+00:00,AAPL,reddit.com/r/stocks,"Could leveraged ETFs make much money on July 9 when Trump's deadline expires and he wants to raise tariffs? Any thoughts would be welcome! - My general thesis is that on July 9, the Stock Market may crash because that's when the foolishness of Trump's trade tariffs will be made clear when his 90 Day Tariffs end on that day. He will not have anything like a clear plan and will not have any countries willing to sign on with him. At that point, the trade-policy gobbledygook will suddenly evaporate and we will have a much clearer view of the the threats to our economy, these including: inflation, rises in cost of living, unemployment, uncertainty and apprehension about the future, etc.
 
 Trump has been making a lot of money for himself and his friends with suddenly raising and lowering tariffs, but he makes money as much of the country loses money.
 
@@ -661,7 +619,7 @@ From Trump truth social today ““I am saddened to watch Elon Musk go complete
 
 Tesla recent performance was not driven by fundamentals and the recent past dip following Tweet is likely to replicate
 ",,-0.6
-2025-07-07 01:26:01+00:00,GOOG,reddit.com/r/stocks,"The majority of individual stocks often underperform the overall index. - Some examples of stocks that have significantly outperformed the S&P 500 over the past two decades (2005-2024 or similar 20-year periods) include:
+2025-07-07 01:26:01+00:00,AAPL,reddit.com/r/stocks,"The majority of individual stocks often underperform the overall index. - Some examples of stocks that have significantly outperformed the S&P 500 over the past two decades (2005-2024 or similar 20-year periods) include:
 NVIDIA, with an average annual return of 39.2%.
 Netflix, with an average annual return of 36.5%.
 Apple, with an average annual return of 32.0%.
@@ -676,7 +634,7 @@ Final Takeaway
 Over the 2005–2025 span, the S&P 500 returned about 10% annually (total ~640%).
 In contrast, real individual investors typically achieved 6–9% annualized returns, underperforming by 1–6 percentage points per year depending on timeframe.
 ",,0.2
-2025-07-07 02:03:33+00:00,GOOG,reddit.com/r/stocks,"Stock market today: Dow, S&P 500, Nasdaq futures fall as Trump targets August 1 for country-by-country tariffs - US stock futures fell Sunday as President Trump and top administration officials suggested country-specific tariffs would take effect on Aug. 1, offering more potential confusion to trading partners but also potential breathing room for negotiations.
+2025-07-07 02:03:33+00:00,TSLA,reddit.com/r/stocks,"Stock market today: Dow, S&P 500, Nasdaq futures fall as Trump targets August 1 for country-by-country tariffs - US stock futures fell Sunday as President Trump and top administration officials suggested country-specific tariffs would take effect on Aug. 1, offering more potential confusion to trading partners but also potential breathing room for negotiations.
 
 Futures attached to the Dow Jones Industrial Average (YM=F), the S&P 500 (ES=F), and the tech-heavy Nasdaq 100 (NQ=F) all dropped around 0.3%.
 
@@ -689,7 +647,7 @@ But on Sunday, both Treasury Secretary Scott Bessent and Trump suggested that wh
 AAPL, DDOG, BGM, MDB, TEAM, and OKTA could benefit if progress on trade deals helps stabilize sentiment and supports a rebound in both large-cap tech and mid-cap growth names.
 
 Bessent hinted at several possible deals in the coming days, suggesting the focus this week is clarity with 18 major trading partners before setting duties for the 100-plus other countries that the administration has in its sights for trade taxation. Wall Street is waiting to see how trade talks between the European Union and Canada go, in addition to other key partners.",,0.2
-2025-07-07 05:32:10+00:00,TSLA,reddit.com/r/stocks,"Trump threatens extra 10% tariff on countries that align with ‘Anti-American’ BRICS policies / tariff agreements - “Any Country aligning themselves with the Anti-American policies of BRICS, will be charged an ADDITIONAL 10% Tariff. There will be no exceptions to this policy,” Trump said in a post on Truth Social Sunday evening stateside.
+2025-07-07 05:32:10+00:00,GOOG,reddit.com/r/stocks,"Trump threatens extra 10% tariff on countries that align with ‘Anti-American’ BRICS policies / tariff agreements - “Any Country aligning themselves with the Anti-American policies of BRICS, will be charged an ADDITIONAL 10% Tariff. There will be no exceptions to this policy,” Trump said in a post on Truth Social Sunday evening stateside.
 
 Separately, Trump confirmed that the U.S. will start delivering letters on Monday, detailing country-specific tariff rates and any agreements reached with various trading partners. That affirmed Treasury Secretary Scott Bessent’s comments over the weekend.
 
@@ -709,10 +667,10 @@ But what are some stocks that operate in boring mundane industries that have ste
 As an example, comfort systems (hvac) or terravest (propane tanks). These have crushed the market over the past several years.
 
 What are some boring, under the radar stocks you like? (I don't mean the usual WM, COST that are talked about endlessly on this sub).
-",,0.5
-2025-07-07 07:33:23+00:00,GOOG,reddit.com/r/stocks,"Looking to rebalance my portfolio - Hello, I sold 100k worth of NVDA bringing my cash to 110k. My current portfolio is still 298k NVDA, 225K AMD, 7.6k UPST and some other tiny positions. I'm thinking of trimming my NVDA position down to 200k, increase my AMD position by that same amount. I'm not sure where to invest my remaining 110k in cash. I'm looking for high growth tech companies with market cap of 300M+, positive analyst forecasts, good revenue and EPS growth estimates. It can be large caps too if the PEG ratio is close to 1 or below like TSMC used to be until recently. Looking for stock recommendations as I'm having a hard time finding something that looks undervalued that meets my criteria. I'm currently considering 50K in [TSE: AIDX
+",,0.2
+2025-07-07 07:33:23+00:00,AAPL,reddit.com/r/stocks,"Looking to rebalance my portfolio - Hello, I sold 100k worth of NVDA bringing my cash to 110k. My current portfolio is still 298k NVDA, 225K AMD, 7.6k UPST and some other tiny positions. I'm thinking of trimming my NVDA position down to 200k, increase my AMD position by that same amount. I'm not sure where to invest my remaining 110k in cash. I'm looking for high growth tech companies with market cap of 300M+, positive analyst forecasts, good revenue and EPS growth estimates. It can be large caps too if the PEG ratio is close to 1 or below like TSMC used to be until recently. Looking for stock recommendations as I'm having a hard time finding something that looks undervalued that meets my criteria. I'm currently considering 50K in [TSE: AIDX
 ](https://imgur.com/a/6uhA6Fx) and 20k in [TSE: WELL](https://imgur.com/a/pxNadMA). I'm mostly into real estate but I'm looking to grow my stock portfolio and assume a little bit more risk for growth, as long as the risk/reward makes sense, not looking to gamble on meme stocks.",,0.2
-2025-07-07 13:50:49+00:00,GOOG,reddit.com/r/stocks,"r/Stocks Daily Discussion Monday - Jul 07, 2025 - These daily discussions run from Monday to Friday including during our themed posts.
+2025-07-07 13:50:49+00:00,AAPL,reddit.com/r/stocks,"r/Stocks Daily Discussion Monday - Jul 07, 2025 - These daily discussions run from Monday to Friday including during our themed posts.
 
 
 
@@ -741,7 +699,7 @@ Please discuss your portfolios in the \[Rate My Portfolio sticky.\](https://www.
 
 
 See our past \[daily discussions here.\](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+%22r%2Fstocks+daily+discussion%22&restrict\_sr=on&sort=new&t=all)  Also links for:  \[Technicals\](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Atechnicals&restrict\_sr=on&include\_over\_18=on&sort=new&t=all) Tuesday, \[Options Trading\](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Aoptions&restrict\_sr=on&include\_over\_18=on&sort=new&t=all) Thursday, and \[Fundamentals\](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Afundamentals&restrict\_sr=on&include\_over\_18=on&sort=new&t=all) Friday.",,0.1
-2025-07-07 14:27:55+00:00,AAPL,reddit.com/r/stocks,"Trump’s July Tariff Deadline Likely Pushed to August  How Will It Impact Markets? - The anticipation surrounding President Trump's tariff deadline for July 9 seems to be slipping into August, and potentially even beyond, with the latest updates suggesting a more extended timeline for these trade talks. While the administration has touted finalizing agreements soon, trade talks, especially with major partners like the EU, Japan, and India, still seem unresolved
+2025-07-07 14:27:55+00:00,GOOG,reddit.com/r/stocks,"Trump’s July Tariff Deadline Likely Pushed to August  How Will It Impact Markets? - The anticipation surrounding President Trump's tariff deadline for July 9 seems to be slipping into August, and potentially even beyond, with the latest updates suggesting a more extended timeline for these trade talks. While the administration has touted finalizing agreements soon, trade talks, especially with major partners like the EU, Japan, and India, still seem unresolved
 
 Deadline Shift: Trump’s team previously set a July 9 deadline, but with continued negotiations and open-ended remarks, the new ""real"" date seems to be August 1. That’s when tariffs are expected to kick in, unless further deals are reached
 
@@ -751,7 +709,7 @@ Recently, the market's reaction to tariff-related news has been relatively muted
 
 Looking at the technical side, we could see sectors like semiconductors, which are heavily influenced by trade relations, experience more volatility. If Trump’s deadline is delayed, we might see some short-term corrections in those areas",,0.1
 2025-07-07 14:40:59+00:00,TSLA,reddit.com/r/stocks,"AdvisorShares HVAC & Industrials ETF - Why has this EFT not performed better? I want to get into owning stocks in the HVAC space but despite what I hear about HVAC having some of the highest margin in the trades, projected future demands, etc. It seems like none of the major stocks perform that well? What are people's takes on HVAC stocks? ",,0.2
-2025-07-07 14:42:37+00:00,AAPL,reddit.com/r/stocks,"What do yall think about these tickers as ideas for 3-6 month longs? - Hey! I’m 20 years old started learning finance and stock market a few months ago, also starting to build my own trading porfolio and I will be mostly focusing on options however now I can’t trade options and I’m looking to just “invest” or basically get some sort of a yield to up my balance slowly.
+2025-07-07 14:42:37+00:00,GOOG,reddit.com/r/stocks,"What do yall think about these tickers as ideas for 3-6 month longs? - Hey! I’m 20 years old started learning finance and stock market a few months ago, also starting to build my own trading porfolio and I will be mostly focusing on options however now I can’t trade options and I’m looking to just “invest” or basically get some sort of a yield to up my balance slowly.
 From what I see now we’re in the recession phase of the financial cycle, and I know that in recession we’ll usually go for defensive sectors like health or consumer staples, I’ve gathered some tickers from the health sector that are performing better than the rest of the stocks in that sector and put them in my watch list.
 
 Also I did take some of the better tech tickers, in case they still go up I’ll go long on them and maybe hedge by shorting on the tech sector by taking a short on a ETF of the tech sector. (Because tech sector usually performs less in recession).
@@ -781,12 +739,12 @@ LDOS
 HWM
 GE
 ",,0.2
-2025-07-07 15:30:02+00:00,GOOG,reddit.com/r/stocks,"""Boring"" ETF’s with tech-like returns - ""Boring"" ETF’s with tech-like returns
+2025-07-07 15:30:02+00:00,TSLA,reddit.com/r/stocks,"""Boring"" ETF’s with tech-like returns - ""Boring"" ETF’s with tech-like returns
 
 Saw a thread in here earlier asking about boring Stocks with tech like returns and was wondering if there are any ETF’s people love with a similar allocation of stocks in mundane industries? 
 
 Doesn’t have to be particularly under the radar but rather something that you believe in for the next 5-10 years. HVAC, Propane, Plumbing? I’ve seen some recommendations of personal stocks(PH, GNRC, CASY) but wanted to see if any ETF made sense",,0.2
-2025-07-07 15:42:47+00:00,AAPL,reddit.com/r/stocks,Is SoFi still a buy or did it peak - This stock has been climbing and it seems like it has a healthy future ahead with student loans. I do wonder if this is too high to buy in though because it can't seem to break past 20? Does anyone know if this company has a strong growth ahead or will it stagnate. I'm planning to buy and hold until January 2027 so I wonder if they will experience growth into 2026 or flat at 20 for a while?,,0.2
+2025-07-07 15:42:47+00:00,TSLA,reddit.com/r/stocks,Is SoFi still a buy or did it peak - This stock has been climbing and it seems like it has a healthy future ahead with student loans. I do wonder if this is too high to buy in though because it can't seem to break past 20? Does anyone know if this company has a strong growth ahead or will it stagnate. I'm planning to buy and hold until January 2027 so I wonder if they will experience growth into 2026 or flat at 20 for a while?,,0.2
 2025-07-07 17:05:26+00:00,TSLA,reddit.com/r/stocks,"Class action lawsuit: Any experiences with that? (ELV in this case) - Hi
 
 so while I recognize that investing comes with a risk, and I fully own and embrace my purchases, I am getting curious about the messages / notifications I see regarding $ELV Class Action Lawsuit with deadline on July 11th.
@@ -808,14 +766,14 @@ Also, I'm not an US resident nor am I residing in the US. So this topic is prett
 Thank you,
 
 ",,-0.2
-2025-07-07 18:10:12+00:00,GOOG,reddit.com/r/stocks,"Can someone ELI5 how the S&P500 can keep an average 10% growth rate for another 30+ years? - The total market capitalization of the S&P500 is $52 trillion, if my math is right this means it would double to over $100trillion in 7ish years, and by the end of 30 years be approaching almost $1quadrillion in value ($900 trillion)? 
+2025-07-07 18:10:12+00:00,TSLA,reddit.com/r/stocks,"Can someone ELI5 how the S&P500 can keep an average 10% growth rate for another 30+ years? - The total market capitalization of the S&P500 is $52 trillion, if my math is right this means it would double to over $100trillion in 7ish years, and by the end of 30 years be approaching almost $1quadrillion in value ($900 trillion)? 
 
 That sounds really stupid and impossible to me. Plus with the birth rate is in constant decline, market growth is only going to slow as less consumers enter the market than before. Which tells me in the future there will be less and less new mega corporations and all the wealth will continue to consolidate into a few huge companies. 
 
 The only thing that makes sense is that more and more multi-trillion dollar companies like Microsoft and Apple start entering the S&P500, to the point where almost every company is worth trillions or close to it. Which also sounds really stupid.  
 
 Where is all this money going to come from? Even if we assume inflation wipes out half of that $900trillion in growth of the S&P500 in today's money, that's still like a ridiculous increase that makes no sense. ",,-0.8
-2025-07-07 18:16:28+00:00,GOOG,reddit.com/r/stocks,"Will Trump's tariff delay spark a short-term stock market rally? - Trump to delay tariff deadline, sends trade letter to 12 countries. This may sound like run-of-the-mill political news, but given the current macro backdrop, there may be more to this than meets the eye.
+2025-07-07 18:16:28+00:00,AAPL,reddit.com/r/stocks,"Will Trump's tariff delay spark a short-term stock market rally? - Trump to delay tariff deadline, sends trade letter to 12 countries. This may sound like run-of-the-mill political news, but given the current macro backdrop, there may be more to this than meets the eye.
 
 The Trump administration's new round of tariffs, which were set to begin this month, have now been postponed.
 
@@ -854,11 +812,10 @@ Do you think this tariff delay is a material positive? Or is it political maneuv
  Is it a “bull trap” waiting for everyone to get cut during earnings season?",,0.6
 2025-07-07 19:17:21+00:00,GOOG,reddit.com/r/stocks,Is Redwire good to buy in long term now? - It's currently floating around 15-16 but analysts expect to hit mid to high 20s by 2026 with general sentiment leaning on buying. RDW seems diversified and continuing to diversify. They acquired Edge but that seemed to be having a more negative impact than positive recently with the stocks diluting. I would assume this would benefit them long term since it could lead to defense contracts but how likely would that be? Also how likely is it for more stock dilutions for the company and will that significantly impact it? It feels like its in a similar boat to RKLB but I  dont know.,,0.2
 2025-07-07 19:19:00+00:00,TSLA,Yahoo Finance,Commentary: Why Elon Musk should stick to business,https://finance.yahoo.com/news/commentary-why-elon-musk-should-stick-to-business-191900585.html,-0.5
-2025-07-07 19:41:20+00:00,GOOG,reddit.com/r/stocks,"Need some advice on which ETF would be better to buy - I’m considering buying an ETF and found that Finance-based ETF and Defence & Cybersecurity ETF had good growth this year. I have already shared in Nvidia and Amazon. I have bought some shares in an index fund which tracks big-cap to mid-cap companies worldwide. Mainly US and EU-based. Now I’m considering buying an ETF to diversify my portfolio in a particular sector. I wonder which ETF would be better for long-term growth? Defence & Cybersecurity or Finance-based ETF? Or Tech based ETF (even though I already own some tech stocks) or is it worth considering dividend based ETF or Emerging Market based ETF? 
+2025-07-07 19:41:20+00:00,AAPL,reddit.com/r/stocks,"Need some advice on which ETF would be better to buy - I’m considering buying an ETF and found that Finance-based ETF and Defence & Cybersecurity ETF had good growth this year. I have already shared in Nvidia and Amazon. I have bought some shares in an index fund which tracks big-cap to mid-cap companies worldwide. Mainly US and EU-based. Now I’m considering buying an ETF to diversify my portfolio in a particular sector. I wonder which ETF would be better for long-term growth? Defence & Cybersecurity or Finance-based ETF? Or Tech based ETF (even though I already own some tech stocks) or is it worth considering dividend based ETF or Emerging Market based ETF? 
 
 ",,0.2
-2025-07-07 20:00:15+00:00,TSLA,Yahoo Finance,"Dow, S&P 500, Nasdaq retreat as Trump reignites trade tensions with flurry of letters, August deadline",https://finance.yahoo.com/news/live/dow-sp-500-nasdaq-retreat-as-trump-reignites-trade-tensions-with-flurry-of-letters-august-deadline-200015302.html,-0.6
-2025-07-07 20:42:59+00:00,AAPL,reddit.com/r/stocks,"The TACO trade may doom the stock market - Today when Trump announced the 25% tariffs on Japan and Korea, markets had a relatively muted reaction. Even with the Trump administration stating that they’re raising tariff rates on other 12 countries this week, the S&P 500 didn’t even decline a full percentage point. 
+2025-07-07 20:42:59+00:00,GOOG,reddit.com/r/stocks,"The TACO trade may doom the stock market - Today when Trump announced the 25% tariffs on Japan and Korea, markets had a relatively muted reaction. Even with the Trump administration stating that they’re raising tariff rates on other 12 countries this week, the S&P 500 didn’t even decline a full percentage point. 
 
 The markets current reaction to Trump revamping his tariff talk pales in comparison to the -7% decline after announcing his Canada and Mexico tariffs and the further -12% drop after liberation day. Financial markets have begun to largely ignore Trump and his tariffs, pricing in the expectation that he will ultimately chicken out. 
 
@@ -876,15 +833,14 @@ $250,000 Portfolio
 30% Maintenance
 
 How would you go about calculating if you would be margin called? If the portfolio balance falls below $130,000 I assume?",,-0.2
-2025-07-07 21:26:45+00:00,TSLA,Yahoo Finance Video,Elon Musk's 'America Party' probably won't work. Here's why.,https://finance.yahoo.com/video/elon-musks-america-party-probably-212645367.html,-0.5
-2025-07-07 22:05:19+00:00,AAPL,reddit.com/r/stocks,"Apple Loses Top AI Models Executive to Meta’s Hiring Spree - https://www.bloomberg.com/news/articles/2025-07-07/apple-loses-its-top-ai-models-executive-to-meta-s-hiring-spree
+2025-07-07 22:05:19+00:00,TSLA,reddit.com/r/stocks,"Apple Loses Top AI Models Executive to Meta’s Hiring Spree - https://www.bloomberg.com/news/articles/2025-07-07/apple-loses-its-top-ai-models-executive-to-meta-s-hiring-spree
 
 > Apple Inc.’s top executive in charge of artificial intelligence models is leaving for Meta Platforms Inc., another setback in the iPhone maker’s struggling AI efforts.
 
 > Ruoming Pang, a distinguished engineer and manager in charge of the company’s Apple foundation models team, is departing, according to people with knowledge of the matter. Pang, who joined Apple from Alphabet Inc. in 2021, is the latest big hire for Meta’s new superintelligence team, said the people, who declined to be named discussing unannounced personnel moves. 
 
 > To secure Pang, Meta offered a package worth tens of millions of dollars per year, the people said. Meta Chief Executive Officer Mark Zuckerberg has been on a hiring spree, bringing on major AI leaders including Scale AI’s Alexandr Wang, startup founder Daniel Gross and former GitHub CEO Nat Friedman with high compensation.",,-0.8
-2025-07-07 22:37:06+00:00,AAPL,reddit.com/r/stocks,"Trump announces steep tariffs on 14 countries starting Aug. 1 - https://www.cnbc.com/2025/07/07/trump-tariffs-trade-letters-japan.html
+2025-07-07 22:37:06+00:00,TSLA,reddit.com/r/stocks,"Trump announces steep tariffs on 14 countries starting Aug. 1 - https://www.cnbc.com/2025/07/07/trump-tariffs-trade-letters-japan.html
 
 > At least 14 countries’ imports are set to face steep blanket tariffs starting Aug. 1, President Donald Trump revealed Monday.
 
@@ -899,10 +855,8 @@ How would you go about calculating if you would be margin called? If the portfol
 > Bangladesh and Serbia are both at 35%, while Cambodia and Thailand are set for 36% tariff rates, the president’s letters said.
 
 > Imports from Laos and Myanmar will face a 40% duty, according to the letters Trump posted on Truth Social showed.",,-0.8
-2025-07-07 22:37:37+00:00,GOOG,GuruFocus.com,Startups Pivot From SEO to AI Visibility,https://finance.yahoo.com/news/startups-pivot-seo-ai-visibility-223737632.html,0.2
 2025-07-08 01:14:54+00:00,AAPL,reddit.com/r/stocks,"Whats so great about VOO? - Im a 17yo who now has a stable job that allows me to put 600 a month into the stock market. I already have about 6000 in my portfolio spread over many large cap tach stocks and crypto. Ive seen many people say ""just buy VOO"" and i am wonder how good it realy is. Im thinking berahire b is a better buy or mabey even iqqq paired with an international etf. ",,0.2
-2025-07-08 02:11:20+00:00,GOOG,Bloomberg,Apple Loses Top AI Models Executive to Meta’s Hiring Spree,https://finance.yahoo.com/news/apple-loses-top-ai-models-021120561.html,-0.5
-2025-07-08 07:07:36+00:00,TSLA,reddit.com/r/stocks,"What red flags would make you rethink your S&P 500 investments in the future? - I’m a foreign investor and to be honest I dislike What trump's doing right now. He literally destroy global trade system. Still, I remain invested in the S&P 500 and there's three reasons.
+2025-07-08 07:07:36+00:00,GOOG,reddit.com/r/stocks,"What red flags would make you rethink your S&P 500 investments in the future? - I’m a foreign investor and to be honest I dislike What trump's doing right now. He literally destroy global trade system. Still, I remain invested in the S&P 500 and there's three reasons.
 
 **U.S. dollar still holds strong as the world’s reserve currency**
 
@@ -913,7 +867,7 @@ How would you go about calculating if you would be margin called? If the portfol
 But if I start seeing cracks in *any* of these conditions, I’d seriously consider reducing my S&P500 allocation.
 
 What would it take for you to reduce your exposure to the S&P 500? Are there specific red flags you watch for?",,-0.2
-2025-07-08 09:30:31+00:00,AAPL,reddit.com/r/stocks,"r/Stocks Daily Discussion & Technicals Tuesday - Jul 08, 2025 - This is the daily discussion, so anything stocks related is fine, but the theme for today is on technical analysis (TA), but if TA is not your thing then just ignore the theme.
+2025-07-08 09:30:31+00:00,GOOG,reddit.com/r/stocks,"r/Stocks Daily Discussion & Technicals Tuesday - Jul 08, 2025 - This is the daily discussion, so anything stocks related is fine, but the theme for today is on technical analysis (TA), but if TA is not your thing then just ignore the theme.
 
 Some helpful day to day links, including news:
 
@@ -938,13 +892,14 @@ If you have questions, please see the following word cloud and click through for
 [Indicator - Trade Signals - Lagging Indicator - Leading Indicator - Oversold - Overbought - Divergence - Whipsaw - Resistance - Support - Breakout/Breakdown - Alerts - Trend line - Market Participants - Moving average - RSI - VWAP - MACD - ATR - Bollinger Bands - Ichimoku clouds - Methods - Trend Following - Fading - Channels - Patterns - Pivots](https://www.reddit.com/r/stocks/wiki/ta-themed-post)
 
 See our past [daily discussions here.](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+%22r%2Fstocks+daily+discussion%22&restrict_sr=on&sort=new&t=all)  Also links for:  [Technicals](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Atechnicals&restrict_sr=on&include_over_18=on&sort=new&t=all) Tuesday, [Options Trading](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Aoptions&restrict_sr=on&include_over_18=on&sort=new&t=all) Thursday, and [Fundamentals](https://www.reddit.com/r/stocks/search?q=author%3Aautomoderator+title%3Afundamentals&restrict_sr=on&include_over_18=on&sort=new&t=all) Friday.",,0.2
-2025-07-08 11:53:41+00:00,TSLA,Yahoo Finance Video,"Samsung, Uber gains, Shein IPO: Trending Tickers",https://finance.yahoo.com/video/samsung-uber-gains-shein-ipo-115341728.html,0.5
-2025-07-08 12:24:27+00:00,AAPL,reddit.com/r/stocks,"Investing In Something You Believe In Rather Than Earnings Sheets.. Thoughts - Prefix, my buddy has been right on a couple of his investments like Tesla. He invests in companies that look cool to him and I think he found them off Cathie Woods.
+2025-07-08 11:30:53+00:00,TSLA,Yahoo Finance Video,Why Elon Musk's America First party may not 'amount to much',https://finance.yahoo.com/video/why-elon-musks-america-first-113053748.html,-0.5
+2025-07-08 11:53:41+00:00,TSLA,Yahoo Finance Video,"Samsung, Uber gains, Shein IPO: Trending Tickers",https://finance.yahoo.com/video/samsung-uber-gains-shein-ipo-115341728.html,0.2
+2025-07-08 12:24:27+00:00,TSLA,reddit.com/r/stocks,"Investing In Something You Believe In Rather Than Earnings Sheets.. Thoughts - Prefix, my buddy has been right on a couple of his investments like Tesla. He invests in companies that look cool to him and I think he found them off Cathie Woods.
 
 Now my question, does anyone here invest in a company because it is what you want to become a reality? One example is ACHR. The air transport services with United, Delta, etc along with airports frankly could be overhauled. I want ACHR to, in words, take flight... but I know that the company has unbelievably difficult road ahead with regulations. So much so that I see the possibility of this company ever making profits around 1%.
 
 I told him it would be like gambling, but he is so sure on it. Does anyone else think about using some of their money for companies that have great ideas, but that might be all they are?",,0.2
-2025-07-08 12:27:41+00:00,GOOG,reddit.com/r/stocks,"Hallador Energy (NASDAQ: HNRG) Write Up - Hey all, I’ve been looking into Hallador Energy (NASDAQ: HNRG), which is a coal miner based out of Indiana. Since 2022, they have been pivoting towards becoming a diversified and vertically integrated energy company. While most people won’t invest in coal stocks entirely, I think Hallador is being grossly overlooked.
+2025-07-08 12:27:41+00:00,AAPL,reddit.com/r/stocks,"Hallador Energy (NASDAQ: HNRG) Write Up - Hey all, I’ve been looking into Hallador Energy (NASDAQ: HNRG), which is a coal miner based out of Indiana. Since 2022, they have been pivoting towards becoming a diversified and vertically integrated energy company. While most people won’t invest in coal stocks entirely, I think Hallador is being grossly overlooked.
 
 Hallador is the 3rd largest coal miner in Indiana and about the 18th largest in America, so their coal mining business isn’t really that “sexy.” The real value I believe, is in their vertical integration strategy which saw them acquire the Merom coal-fired power plant in 2022. They mine the coal, they burn the coal, they sell the power into the grid.
 
@@ -989,16 +944,16 @@ Look, I’m not here to debate climate change. I believe in it, and I have never
 Republicans hold a supermajority in both the House and Senate (over 67% of the available seats), and the Governor is Republican. The state hasn’t voted its electoral votes for a Democrat president since 1964, other than for Obama in 2008. The state is the second biggest consumer of coal behind Texas and is the biggest consumer of coal per capita in America due to the state using coal power for approximately 50% of its power needs putting it in third place as the most coal-dependent state for its power!
 
 Let me know what you think, I’m open to all criticism. ",,0.6
-2025-07-08 12:28:49+00:00,GOOG,reddit.com/r/stocks,"Daft question - Pretty new to investing, and I thought you lot would have a better answer than the trading 212 page. 
+2025-07-08 12:28:49+00:00,AAPL,reddit.com/r/stocks,"Daft question - Pretty new to investing, and I thought you lot would have a better answer than the trading 212 page. 
 So, say I had 80 shares in a company and they lose 30%. And I bought a further 20 shares at the new amount and that price went up 15%,  if i take out the same amount of money as i invest in those 20 shares, so £100 goes in and £100 come out, but i've gained a few shares out of it, am I still losing money if my avg is above the selling price? 
 
 ",,-0.2
 2025-07-08 12:37:26+00:00,GOOG,Simply Wall St.,This Week In Cloud AI - Lucinity's Financial AI Achieves Microsoft Certification for Azure,https://finance.yahoo.com/news/week-cloud-ai-lucinitys-financial-123726367.html,0.5
 2025-07-08 12:40:00+00:00,GOOG,Barrons.com,Elon Musk Tops the Richest List. Here’s How Much His Wealth Has Dropped This Year.,https://www.barrons.com/articles/richest-billionaires-net-worth-musk-bezos-zuckerberg-3915d8d3?siteid=yhoof2&yptr=yahoo,-0.5
 2025-07-08 12:57:00+00:00,AAPL,Yahoo Finance Video,"Cisco's AI-fueled gains, Apple loses top AI engineer to Meta",https://finance.yahoo.com/video/ciscos-ai-fueled-gains-apple-125700408.html,0.2
-2025-07-08 13:37:39+00:00,TSLA,reddit.com/r/stocks,"So.... why is the stock market completely ignoring Trump's tariffs this time??? - I seriously dont get it. Trump just announced plans to do Liberation Day 2.0 all over again but this time the stock market stays... up??? Wtf. 
+2025-07-08 13:37:39+00:00,GOOG,reddit.com/r/stocks,"So.... why is the stock market completely ignoring Trump's tariffs this time??? - I seriously dont get it. Trump just announced plans to do Liberation Day 2.0 all over again but this time the stock market stays... up??? Wtf. 
 
-Does Wallstreet simply not care about the economy anymore?",,-0.7
+Does Wallstreet simply not care about the economy anymore?",,-0.6
 2025-07-08 14:06:50+00:00,AAPL,reddit.com/r/stocks,"Evercore: Will boost free cash flow for Microsoft and Oracle - Some software companies, such as Microsoft ( NASDAQ: MSFT ) and Oracle ( NYSE: ORCL ), will benefit from higher free cash flow due to some elements of President Donald Trump's ‘One Great, Beautiful Act,’ Evercore ISI said.
 
 We believe “A Great and Beautiful Act” could create a stealth free cash flow tailwind for profitable software companies, thanks to favourable changes in the tax treatment of R&D and capital expenditures,’ said Evercore analysts led by Kirk Materne (NYSE: ORCL). ), an Evercore analyst led by Kirk Materne, said. ‘Based on our analysis, the companies that benefit the most are those with high R&D intensity, high levels of capital expenditures, and that currently pay a significant amount of cash taxes.’
@@ -1016,13 +971,14 @@ Microsoft and Oracle are among the software companies benefiting from high capit
 Evercore rates Microsoft Outperform and raised its price target to $515 from $500. Oracle is also rated Outperform and its price target was raised to $215 from $180.
 
 Additionally, Evercore expects investment in artificial intelligence and the technology sector in general to increase as companies in a variety of industries reap the benefits.",,0.8
-2025-07-08 14:29:34+00:00,AAPL,reddit.com/r/stocks,"SoFi to Give Clients Access to OpenAI, SpaceX Through New Funds - https://www.bloomberg.com/news/articles/2025-07-08/sofi-to-give-clients-access-to-openai-spacex-through-new-funds
+2025-07-08 14:29:34+00:00,TSLA,reddit.com/r/stocks,"SoFi to Give Clients Access to OpenAI, SpaceX Through New Funds - https://www.bloomberg.com/news/articles/2025-07-08/sofi-to-give-clients-access-to-openai-spacex-through-new-funds
 
 * SoFi Technologies is introducing new private-markets funds that allow retail clients to invest in closely held companies like SpaceX, OpenAI, and Epic Games.
 
 * The funds will provide exposure to companies across various industries, and can be invested in through the SoFi app with a minimum contribution of $10.
 
 * SoFi is expanding alternative investment opportunities for retail clients, following a trend of increased demand for investing in private companies.",,0.8
+2025-07-08 14:40:43+00:00,AAPL,Yahoo Finance Video,'Thoughtful' investing is key amid tariff news: BlackRock's Chaudhuri,https://finance.yahoo.com/video/thoughtful-investing-key-amid-tariffs-144043040.html,0.5
 2025-07-08 14:41:20+00:00,AAPL,reddit.com/r/stocks,"Robinhood Discussing Tokenized Equities With Regulators - https://www.bloomberg.com/news/articles/2025-07-08/robinhood-discussing-tokenized-equities-with-regulators
 
 * Robinhood Markets Inc. Chief Executive Officer Vlad Tenev said the firm is in talks with regulators over its offering of tokenized equities in Europe.
@@ -1031,13 +987,13 @@ Additionally, Evercore expects investment in artificial intelligence and the tec
 
 * Tenev said the company hopes to launch tokenized equities in other markets like the US and the UK in due course and pending regulatory approval.",,0.5
 2025-07-08 15:15:16+00:00,GOOG,MT Newswires,"Uber Poised for Bookings Growth in Q2, Driver Tax Benefits, BofA Says",https://finance.yahoo.com/news/uber-poised-bookings-growth-q2-151516169.html,0.6
-2025-07-08 15:41:50+00:00,TSLA,reddit.com/r/stocks,"The End of the Stock Market As We Know It - Startups and Wall Street giants alike are racing to turn stocks, bonds, and real estate into crypto-like tokens. We asked an expert to break down what that means for your money.
+2025-07-08 15:41:50+00:00,GOOG,reddit.com/r/stocks,"The End of the Stock Market As We Know It - Startups and Wall Street giants alike are racing to turn stocks, bonds, and real estate into crypto-like tokens. We asked an expert to break down what that means for your money.
 
 A revolution is brewing in finance, promising to shatter the old walls of Wall Street and bring assets like stocks, bonds, and even skyscrapers onto the blockchain. It’s called tokenization, and it could fundamentally change how we own, trade, and think about value. To understand what this means for the average person, we broke down the concept and spoke with Ken DiCross, co-founder of the blockchain interoperability platform Wire Network, about the future of a tokenized world.
 
-https://gizmodo.com/the-end-of-the-stock-market-as-we-know-it-2000625351",,0.8
+https://gizmodo.com/the-end-of-the-stock-market-as-we-know-it-2000625351",,0.6
 2025-07-08 15:50:02+00:00,GOOG,Bloomberg,Uber Traders Shrug Off Robotaxi Risks as Stock Powers to Record,https://finance.yahoo.com/news/uber-traders-shrug-off-robotaxi-122329606.html,0.5
-2025-07-08 16:40:34+00:00,AAPL,reddit.com/r/stocks,"My long term stock portfolio strategy (experienced opinions please) - Hey guys, I’m 21 years old and just started building my stock portfolio a few months ago. (I’m from Dubai and I use IBKR, if that matters.)
+2025-07-08 16:40:34+00:00,GOOG,reddit.com/r/stocks,"My long term stock portfolio strategy (experienced opinions please) - Hey guys, I’m 21 years old and just started building my stock portfolio a few months ago. (I’m from Dubai and I use IBKR, if that matters.)
 
 So from everything I’ve read, people usually recommend something like a 70% ETF and 30% individual stock split for a long-term portfolio. I totally get that it’s nearly impossible to consistently pick winning stocks, especially as someone with less than a year of experience.
 
@@ -1073,9 +1029,8 @@ Cramer said that GEV is viewed as being expensive but he believes GEV can still 
 
 I prefer LEU to GEV based on cost but having both wouldn't be the worst thing in the world. I think. What does the hive say? Is this a rare moment where we don't want to ""inverse Cramer""?",,0.4
 2025-07-08 17:00:20+00:00,GOOG,Bloomberg,"Waymo Begins Offering Teen Accounts, Starting in Metro Phoenix",https://finance.yahoo.com/news/waymo-begins-offering-teen-accounts-170020443.html,0.2
-2025-07-08 17:30:01+00:00,AAPL,Business Insider,Trump's trade advisor slams Apple's China ties — but Wall Street says it can't afford to leave,https://finance.yahoo.com/news/trumps-trade-advisor-slams-apples-093001567.html,-0.5
 2025-07-08 17:30:45+00:00,GOOG,Yahoo Finance Video,Meta reportedly poaches Apple's AI talent: It's 'do or die',https://finance.yahoo.com/video/meta-reportedly-poaches-apples-ai-173045370.html,0.2
-2025-07-08 17:38:59+00:00,TSLA,reddit.com/r/stocks,"Tesla self driving urged to be banned - Tesla stock goes up - I guess that reduces death liability.
+2025-07-08 17:38:59+00:00,GOOG,reddit.com/r/stocks,"Tesla self driving urged to be banned - Tesla stock goes up - I guess that reduces death liability.
 
 The Dawn Project Urges Legislators To Ban Tesla Full Self-Driving Over Critical Safety Defects Published in New Report to Congress
 
@@ -1086,8 +1041,7 @@ Today, The Dawn Project shared a report of its findings with legislators and key
 The Dawn Project recently held a live demonstration of its safety tests in Austin which proved that the latest publicly available version of Tesla Full Self-Driving will run down a child crossing the road while illegally blowing past a stopped school bus with its red lights flashing and stop sign extended.
 
 More in the link but it's mostly repeat.",,-0.8
-2025-07-08 17:53:35+00:00,AAPL,GuruFocus.com,Apple's iPhone Defies Weakness in the World's Largest Smartphone Market,https://finance.yahoo.com/news/apples-iphone-defies-weakness-worlds-175335120.html,0.8
-2025-07-08 18:04:13+00:00,TSLA,reddit.com/r/stocks,"Trump says he will impose 50% tariff on copper imports on Tuesday - Per Yahoo News 
+2025-07-08 18:04:13+00:00,AAPL,reddit.com/r/stocks,"Trump says he will impose 50% tariff on copper imports on Tuesday - Per Yahoo News 
 
 WASHINGTON (Reuters) -President Donald Trump said he will announce a 50% tariff on imported copper on Tuesday, an effort to boost U.S. production of a metal critical to electric vehicles, military hardware, the power grid and many consumer goods.
 
@@ -1106,10 +1060,9 @@ Freeport-McMoRan, the largest U.S. copper producer, did not immediately respond 
 
 Terms  and Privacy Policy
 Privacy Dashboard
-",,0.2
-2025-07-08 18:35:00+00:00,GOOG,Barrons.com,A Waymo Taxi Took Me for a Ride. I’m Ready to Try Tesla.,https://www.barrons.com/articles/waymo-tesla-self-driving-robo-taxi-service-009e0d57?siteid=yhoof2&yptr=yahoo,0.2
-2025-07-08 19:35:07+00:00,AAPL,The Wall Street Journal,"Stocks to Watch Tuesday: Freeport-McMoRan, Amazon, First Solar",https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2025/card/stocks-to-watch-tuesday-amazon-sunrun-first-solar-meta-Wg7q12WlOrVrF6KNyy1e?siteid=yhoof2&yptr=yahoo,0.5
-2025-07-08 19:40:00+00:00,AAPL,reddit.com/r/stocks,"Is VOYG a buy ? Voyager Technologies - They IPO’d in June at $31, briefly ran up to $70+, and now trading around $42. What caught my attention is that unlike a lot of IPOs, this one actually has revenue and real contracts in place.
+",,0.1
+2025-07-08 18:35:00+00:00,GOOG,Barrons.com,A Waymo Taxi Took Me for a Ride. I’m Ready to Try Tesla.,https://www.barrons.com/articles/waymo-tesla-self-driving-robo-taxi-service-009e0d57?siteid=yhoof2&yptr=yahoo,0.5
+2025-07-08 19:40:00+00:00,TSLA,reddit.com/r/stocks,"Is VOYG a buy ? Voyager Technologies - They IPO’d in June at $31, briefly ran up to $70+, and now trading around $42. What caught my attention is that unlike a lot of IPOs, this one actually has revenue and real contracts in place.
 
 They work with:
 
@@ -1118,14 +1071,74 @@ They work with:
 * **Palantir** (on AI + satellite systems)
 
 Still a small-cap (\~$2.4B), not a ton of analyst coverage yet, but early price targets I found are around $55–60. If they keep growing, it might get more attention in the second half of the year.",,0.6
-2025-07-08 19:54:08+00:00,AAPL,Bloomberg,Apple Loses Top AI Models Exec to Meta's Hiring Spree,https://finance.yahoo.com/video/apple-loses-top-ai-models-195408947.html,-0.5
-2025-07-08 19:54:21+00:00,AAPL,MT Newswires,Sector Update: Tech Stocks Rise Late Afternoon,https://finance.yahoo.com/news/sector-tech-stocks-rise-afternoon-195421619.html,0.5
-2025-07-08 19:57:29+00:00,AAPL,Bloomberg,Apple's AI Model Executive Shifts to Meta,https://finance.yahoo.com/video/apples-ai-model-executive-shifts-195729773.html,0.1
 2025-07-08 20:01:48+00:00,TSLA,Yahoo Finance Video,Why Elon Musk told Tesla bull Dan Ives to 'shut up',https://finance.yahoo.com/video/why-elon-musk-told-tesla-200148325.html,-0.5
-2025-07-08 20:03:28+00:00,TSLA,CNN Business,Tesla is in deeper trouble than you think,https://finance.yahoo.com/news/tesla-deeper-trouble-think-110025611.html,-0.8
-2025-07-08 20:05:17+00:00,TSLA,Investor's Business Daily,Tesla Stock Bull Says 'Tesla Board Needs To Act Now' But Elon Musk Says This,https://www.investors.com/news/tesla-stock-bull-tesla-board-needs-to-act-elon-musk-politics-donald-trump/?src=A00220&yptr=yahoo,0.2
-2025-07-08 20:14:05+00:00,AAPL,GuruFocus.com,Apple's Top AI Executive Ruoming Pang Departs for Meta's Superintelligence Team,https://finance.yahoo.com/news/apples-top-ai-executive-ruoming-201405552.html,0.1
 2025-07-08 20:22:28+00:00,TSLA,Reuters Videos,"Loss of EV credits 'will impact Tesla revenue,' says market expert",https://finance.yahoo.com/video/loss-ev-credits-impact-tesla-202228591.html,-0.6
 2025-07-08 20:35:41+00:00,TSLA,GuruFocus.com,Analyst's Bold Call on Tesla's Top Seat Through 2030,https://finance.yahoo.com/news/analysts-bold-call-teslas-top-203541917.html,0.5
-2025-07-08 20:42:22+00:00,AAPL,Reuters,Apple names insider Sabih Khan as COO,https://finance.yahoo.com/news/apple-names-insider-sabih-khan-204222809.html,0.5
-2025-07-08 20:47:59+00:00,TSLA,Investor's Business Daily,"Dow Jones Futures: Stocks Quiet Amid Trump Tariff News, But AMD Sets Up; Elon Musk Tells Tesla Bull To 'Shut Up'",https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-tariff-news-amd-ai-stock-elon-musk-tesla-shut-up/?src=A00220&yptr=yahoo,0.2
+2025-07-08 21:00:00+00:00,TSLA,Oilprice.com,Tesla's Woes Reverberate Through Clean Energy Sector,https://finance.yahoo.com/news/teslas-woes-reverberate-clean-energy-210000646.html,-0.5
+2025-07-08 21:01:40+00:00,TSLA,MT Newswires,Equities Mostly Fall as Trump Plans 50% Tariffs on Copper Imports,https://finance.yahoo.com/news/equities-mostly-fall-trump-plans-210140787.html,-0.7
+2025-07-08 21:06:02+00:00,AAPL,Yahoo Finance Video,"Apple names new COO, Jeff Williams to transition out of role",https://finance.yahoo.com/video/apple-names-coo-jeff-williams-210602102.html,0.1
+2025-07-08 21:19:00+00:00,AAPL,Barrons.com,Velvet Latte Anyone? How China’s Luckin Coffee Is Taking on Starbucks.,https://www.barrons.com/articles/luckin-coffee-starbucks-new-york-c7156838?siteid=yhoof2&yptr=yahoo,0.5
+2025-07-08 21:35:47+00:00,GOOG,reddit.com/r/stocks,"I don't see MAG7 level growth for Apple - I have a hard time seeing MAG7 level growth for Apple in the mid to long term. Some of my thoughts:
+
+- iPhone is their bread and butter but it seems like sales are plateauing. I mean at some point, doesn't everyone who wants an Iphone have an iPhone. And from there, growth becomes people upgrading and I feel that the incremental improvements will be smaller and smaller (as they have been) and the fraction of people with an iPhone upgrading will reduce. So there is not growth here in my view
+
+- what about vision pro? This is interesting, but the sticker shock is big here. Also, there are more competitors in this space now, including META which has been investing in this tech for some time now, and increasingly Google (see their recent I/O). I don't think the vision pro has the cool factor to offset the cost delta between it and others.
+
+- apple car, was this a thing? I think they bailed on this.
+
+I ultimately think that the pixel will eat up some iPhone customers as the AI features (again, see the Google I/O, it's early stage but it will only get better) will be hard to resist for a lot of consumers in my opinionas the tech matures. Even if apple teams with open AI, pixel phones will be more and more build around AI. Apple management have been clear that they see AI more adding ""nuanced"" features in their products, though it's not clear they have a path yet even to this.
+
+Just wanted to post my thoughts and open to being proven wrong and learning something. Cheers",,-0.6
+2025-07-08 21:45:04+00:00,GOOG,Zacks,Alphabet Inc. (GOOG) Declines More Than Market: Some Information for Investors,https://finance.yahoo.com/news/alphabet-inc-goog-declines-more-214504728.html,-0.5
+2025-07-08 22:02:15+00:00,AAPL,TheStreet,Facebook parent sees price target overhauls after AI poaching hits Apple,https://finance.yahoo.com/news/facebook-parent-sees-price-target-220215916.html,0.1
+2025-07-08 22:18:00+00:00,AAPL,Barrons.com,Apple’s Tim Cook Succession Plan Remains Fuzzy as COO Retires,https://www.barrons.com/articles/apple-coo-retirement-tim-cook-aapl-stock-47f39947?siteid=yhoof2&yptr=yahoo,-0.5
+2025-07-08 22:29:51+00:00,GOOG,reddit.com/r/stocks,"What's the next RKLB or PLTR to buy right now? - Folks,
+
+Which stock is the next RKLB or PLTR that can soar in the next 12 months?
+
+I missed out on these 2 when they were low.
+
+Please share your opinion on which stocks can potentially 10x in the next 12 months and what's you're reasoning for that?
+
+It would be great if you could share the top 10 stocks to buy right now that can soar in a year's time. It could be any sector.
+
+
+",,0.2
+2025-07-08 22:51:52+00:00,AAPL,TechCrunch,Rivian spinoff Also raises another $200M to build e-bikes and more,https://finance.yahoo.com/news/rivian-spinoff-raises-another-200m-225152138.html,0.5
+2025-07-08 23:12:50+00:00,GOOG,reddit.com/r/stocks,"This Copper Fund Is Super Cheap, Am I missing Something? - Please share your input, I am posting to increase my knowledge and refine my investment. 
+
+Trump’s 50% Tariffs on Copper prices have sent prices for American Copper soaring, which will widen the spread between US copper (COMEX) and European Copper (LME).
+
+For Canadians or if you can buy on the CAD market there is currently a trade to buy copper at extremely cheap prices through Sprott's Physical Copper Trust (COP.U [COP.UN](http://cop.un/)).
+
+[https://sprott.com/investment-strategies/exchange-listed-products/physical-commodity-funds/copper/](https://sprott.com/investment-strategies/exchange-listed-products/physical-commodity-funds/copper/)
+
+Currently trading at a 20% discount to NAV. If you look back you can see that a discount to NAV started to form after Trump’s election. I originally thought this happened due to the widening spread between Comex and LME (the funds copper is held in Europe), but I have confirmed the NAV of the fund is actually based on LME prices, which is even better.
+
+Of course there is not an easy way to arb either the LME price or even less so the higher Comex price. The fund was doing a value add shipping copper to the US which I am guessing will have to stop. There is a redemption option, though due to copper's heavy weight it is a tough one for most people to pull off. 
+
+For a long term investor buying the funds copper at this severe discount is probably a good move if you want some commodities exposure. For shorter term investors we have to ask if there is any mechanism for the discount to be reduced over time. 
+
+One of the major updates is that Sprott is listing the fund to be traded on the NYSE, the process is currently in the SEC’s comment period. Based on Chatgpt (not best source!), seems like approval is very likely (80-90%) by around September. If it is approved it will be the US first physical copper fund which would drive some attention into the fund likely decreasing the NAV discount. It could also bring arbiteurs in, but if tariffs continue to be in place the latter seems challenging. 
+
+With Sprotts other funds, all of them are far closer to their Nav, though a lot are also listed in the NYSE. 
+
+Overall management seems keen to add value, but that is just based on my initial impressions and I am diving into it to see if there are other methods that they will use to bring further value to shareholders. 
+
+Thoughts?",,0.5
+2025-07-08 23:25:16+00:00,GOOG,Bloomberg,Apple COO Jeff Williams to Retire in Major Changing of Guard,https://finance.yahoo.com/news/apple-operations-chief-step-down-212426451.html,-0.5
+2025-07-09 00:25:00+00:00,AAPL,The Wall Street Journal,Apple COO Jeff Williams to Step Down; Design Team Will Report to CEO Tim Cook,https://www.wsj.com/tech/apples-operations-chief-jeff-williams-to-exit-this-month-57390bd9?siteid=yhoof2&yptr=yahoo,-0.5
+2025-07-09 01:00:00+00:00,TSLA,Motley Fool,Best Stock to Buy Right Now: Uber vs. Tesla,https://finance.yahoo.com/news/best-stock-buy-now-uber-010000552.html,0.5
+2025-07-09 01:01:48+00:00,AAPL,reddit.com/r/stocks,"Seeking advice on undervalued tech stock with strong fundamentals - Hey fellow Redditors,
+
+  
+I'm considering investing in an underperforming but undervalued tech stock with strong fundamentals. The company has a solid track record of innovation and has recently acquired a key player in its industry, giving it a significant advantage over competitors.
+
+  
+The stock is currently trading at around 10% below its 52-week high and has seen significant declines in recent quarters due to market fluctuations and increased competition. However, the company's financials remain healthy, with a strong balance sheet and increasing revenue from new product lines.
+
+  
+I'm interested in hearing your thoughts on whether this stock has potential for long-term growth or if it's best to cut my losses and move on. Are there any other factors I should be considering before making a decision?",,0.6
+2025-07-09 01:09:00+00:00,AAPL,Motley Fool,Could Apple Soon Lose Its Top Position in Warren Buffett's Portfolio?,https://finance.yahoo.com/news/could-apple-soon-lose-top-010900819.html,-0.5
+2025-07-09 02:00:50+00:00,AAPL,reddit.com/r/stocks,"CAVA 2x play - Feeling great about this entry point for CAVA. Fast growing, 400+ locations, opening 60 more this year, 1,000 locations by 2032, and every CAVA I’ve ever been in is packed! Excellent income statement and balance sheet trends. It hasn’t participated in the recent rally, but it appears to be putting in a bottom and recently there was some bullish options activity from bigger players. Thinking about buying some long dated calls as well at about $100 strike.",,0.8
+2025-07-09 02:03:09+00:00,TSLA,Investor's Business Daily,Dow Jones Futures: Stocks Quiet Amid Trump Tariffs; Elon Musk Tells Tesla Bull To 'Shut Up',https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-tariff-news-amd-ai-stock-elon-musk-tesla-shut-up/?src=A00220&yptr=yahoo,0.1
