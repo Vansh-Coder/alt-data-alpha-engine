@@ -7,6 +7,7 @@ import praw
 import yfinance as yf
 import re
 from bs4 import BeautifulSoup
+from sec_cik_mapper import StockMapper
 
 # Load environment variables
 load_dotenv()
@@ -21,8 +22,9 @@ SEC_USER_AGENT = os.getenv("SEC_USER_AGENT")
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
-import re
-from bs4 import BeautifulSoup
+# ticker to cik mapper
+mapper = StockMapper()
+all_mappings = mapper.ticker_to_cik # dict: ticker to CIK
 
 def extract_html_document(document_text):
     """Extracts HTML <TEXT>...</TEXT> for the .htm 8-K block."""
@@ -104,6 +106,10 @@ def fetch_yahoo_news(ticker: str) -> pd.DataFrame:
 # 2. Fetch Reddit posts via PRAW
 
 def fetch_reddit_posts(subreddit: str, ticker: str, limit: int = 100) -> pd.DataFrame:
+    """
+    Fetch latest hot posts from `subreddit` via PRAW, but only return
+    those whose title or selftext mentions the given `ticker` (e.g. "AAPL" or "$AAPL").
+    """
     reddit = praw.Reddit(
         client_id=REDDIT_CLIENT_ID,
         client_secret=REDDIT_CLIENT_SECRET,
@@ -116,14 +122,22 @@ def fetch_reddit_posts(subreddit: str, ticker: str, limit: int = 100) -> pd.Data
         return pd.DataFrame()
 
     records = []
+    ticker_pattern = re.compile(rf'\b{re.escape(ticker)}\b', re.IGNORECASE)
+    cashtag_pattern = re.compile(rf'\${re.escape(ticker)}\b', re.IGNORECASE)
+
     for post in posts:
         ts = datetime.fromtimestamp(post.created_utc, tz=timezone.utc).isoformat()
-        text = post.title + (f" - {post.selftext}" if post.selftext else "")
+        body = post.title + (f" - {post.selftext}" if post.selftext else "")
+
+        # only keep if ticker appears as a word or as a cashtag
+        if not (ticker_pattern.search(body) or cashtag_pattern.search(body)):
+            continue
+
         records.append({
             "timestamp": ts,
             "ticker": ticker,
             "source": f"reddit.com/r/{subreddit}",
-            "text": text,
+            "text": body,
         })
     
     return pd.DataFrame(records)
@@ -177,8 +191,22 @@ def fetch_sec_transcripts(cik: str, ticker: str, max_filings: int = 3) -> pd.Dat
 
 def build_pipeline():
     # Tickers to process
-    tickers = ['AAPL', 'TSLA', 'GOOG']
-    cik_map = {'AAPL': '0000320193', 'TSLA': '0001318605', 'GOOG': '0001652044'}
+    tickers = [
+        'AAPL','MSFT','GOOG','AMZN','FB','TSLA','NVDA','JPM','JNJ','V',
+        'PG','UNH','HD','DIS','MA','BAC','XOM','PFE','ADBE','CMCSA',
+        'NFLX','KO','ABT','CSCO','PEP','CVX','INTC','T','CRM','NKE',
+        'MRK','ORCL','TMO','WMT','ACN','COST','LLY','TXN','MCD','UNP',
+        'MDT','NEE','QCOM','PM','SCHW','AMGN','IBM','BMY','ANTM','LOW',
+        'VRTX','HON','UPS','C','GE','LIN','LMT','DE','MMM','AXP',
+        'BKNG','RTX','PLD','ADP','BA','SBUX','GILD','BLK','CAT','SPGI',
+        'GS','NOW','AMAT','SYK','ISRG','ZTS','CI','MU','CVS','LRCX',
+        'ADI','EL','CB','MDLZ','MU','SCHW','TEAM','TGT','USB','CCI',
+        'CME','DHR','BDX','ADSK','APD','VRTX','EQIX','ATVI','PNC',
+        'CSX','D','MO','SO','TMUS','SPG','MS','CL','USB','AON'
+    ]
+
+    # Build cik_map using mapper
+    cik_map = {t: all_mappings[t] for t in tickers if t in all_mappings}
 
     frames = []
     # Ticker-specific news and SEC filings
