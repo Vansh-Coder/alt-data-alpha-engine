@@ -36,7 +36,7 @@ def extract_html_document(document_text):
 
     return None
 
-def extract_key_items_full_text(document_text):
+def extract_key_items_full_text(document_text, max_words=75):
     """Extracts all text under key 'Item X.XX' sections."""
     important_items = {'1.01', '2.02', '4.02', '5.02', '5.07', '8.01'}
     
@@ -64,7 +64,10 @@ def extract_key_items_full_text(document_text):
         end = matches[i + 1].start() if i + 1 < len(matches) else len(cleaned_text)
         section_text = cleaned_text[start:end].strip()
 
-        summary_parts.append(f"({item_header}) {section_text}")
+        words = section_text.split()
+        truncated = " ".join(words[:max_words])
+
+        summary_parts.append(f"({item_header}) {truncated}")
 
     return '\n\n'.join(summary_parts)
 
