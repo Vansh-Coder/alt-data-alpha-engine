@@ -48,15 +48,18 @@ if __name__ == '__main__':
 
     signals_1d = generate_signals(raw, window_days=1)
     signals_3d = generate_signals(raw, window_days=3)
+    signals_5d = generate_signals(raw, window_days=5)
 
     # Save individual windows
     signals_1d.to_csv(os.path.join(data_dir, "signals_1d.csv"), index=False)
     signals_3d.to_csv(os.path.join(data_dir, "signals_3d.csv"), index=False)
+    signals_5d.to_csv(os.path.join(data_dir, "signals_5d.csv"), index=False)
 
     # Combined
     combined = pd.concat([
         signals_1d.assign(window='1d'),
-        signals_3d.assign(window='3d')
+        signals_3d.assign(window='3d'),
+        signals_5d.assign(window='5d')
     ], ignore_index=True)
     combined.to_csv(output_file, index=False)
     print(f"Signals generated and saved to {output_file}")
