@@ -1,3 +1,4 @@
+import os
 import itertools
 import pandas as pd
 import numpy as np
@@ -112,7 +113,8 @@ for window, sl, tp, ql, qh in itertools.product(
 
 # ─── 4) Report top 10 ─────────────────────────────────────────────────────────
 out = pd.DataFrame(results)
-out.to_csv('grid_search_with_conviction.csv', index=False)
+os.makedirs('data', exist_ok=True)
+out.to_csv('data/grid_search_with_conviction.csv', index=False)
 
 print("\nTop 10 by Sharpe:")
 print(out.sort_values('sharpe', ascending=False).head(10).to_string(index=False))
