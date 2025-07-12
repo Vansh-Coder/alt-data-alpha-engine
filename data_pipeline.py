@@ -1,4 +1,5 @@
 import os
+import sys
 import pandas as pd
 import requests
 from datetime import datetime, timezone
@@ -26,6 +27,11 @@ os.makedirs(DATA_DIR, exist_ok=True)
 mapper = StockMapper()
 all_mappings = mapper.ticker_to_cik # dict: ticker to CIK
 
+# Word limit parameters for text field
+MAX_NEWS_WORDS = 30
+MAX_REDDIT_WORDS = 75
+MAX_SEC_WORDS = 75
+
 def extract_html_document(document_text):
     """Extracts HTML <TEXT>...</TEXT> for the .htm 8-K block."""
     document_blocks = re.split(r'<DOCUMENT>', document_text, flags=re.IGNORECASE)
@@ -38,7 +44,7 @@ def extract_html_document(document_text):
 
     return None
 
-def extract_key_items_full_text(document_text, max_words=75):
+def extract_key_items_full_text(document_text):
     """Extracts all text under key 'Item X.XX' sections."""
     important_items = {'1.01', '2.02', '4.02', '5.02', '5.07', '8.01'}
     
@@ -66,8 +72,11 @@ def extract_key_items_full_text(document_text, max_words=75):
         end = matches[i + 1].start() if i + 1 < len(matches) else len(cleaned_text)
         section_text = cleaned_text[start:end].strip()
 
-        words = section_text.split()
-        truncated = " ".join(words[:max_words])
+        if section_text:
+            words = section_text.split()
+            truncated = " ".join(words[:MAX_SEC_WORDS])
+        else:
+            truncated = ""
 
         summary_parts.append(f"({item_header}) {truncated}")
 
@@ -88,17 +97,23 @@ def fetch_yahoo_news(ticker: str) -> pd.DataFrame:
 
     records = []
     for item in raw:
-        content = item.get("content") or {}
-        provider = content.get("provider") or {}
+        full_content = item.get("content") or {}
+        extracted_content = full_content.get("title") or (),
+        if len(extracted_content) < 1:
+            words = extracted_content[0].split()
+            text = " ".join(words[:MAX_NEWS_WORDS])
+        else:
+            text = ""
+        provider = full_content.get("provider") or {}
         # Extract URL
-        ctu = content.get("clickThroughUrl") or {}
-        cano = content.get("canonicalUrl") or {}
+        ctu = full_content.get("clickThroughUrl") or {}
+        cano = full_content.get("canonicalUrl") or {}
         url = ctu.get("url") or cano.get("url") or ""
         records.append({
-            "timestamp": content.get("pubDate"),
+            "timestamp": full_content.get("pubDate"),
             "ticker": ticker,
             "source": provider.get("displayName") or "",
-            "text": content.get("title") or "",
+            "text": text,
             "url": url,
         })
     return pd.DataFrame(records)
@@ -133,11 +148,17 @@ def fetch_reddit_posts(subreddit: str, ticker: str, limit: int = 100) -> pd.Data
         if not (ticker_pattern.search(body) or cashtag_pattern.search(body)):
             continue
 
+        if body:
+            words = body.split()
+            text = " ".join(words[:MAX_REDDIT_WORDS])
+        else:
+            text = ""
+
         records.append({
             "timestamp": ts,
             "ticker": ticker,
             "source": f"reddit.com/r/{subreddit}",
-            "text": body,
+            "text": text,
         })
     
     return pd.DataFrame(records)
