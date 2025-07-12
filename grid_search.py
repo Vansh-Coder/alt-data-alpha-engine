@@ -1,17 +1,12 @@
 import itertools
 import pandas as pd
 import numpy as np
-import backtest   # exposes run_backtest(..., price_cache)
+import backtest   # your backtest.py with run_backtest(signals_df, sl, tp, price_cache)
 from datetime import timedelta
-import time as tttt
-
-start_time = tttt.time()
-print("Current time:", tttt.strftime("%H:%M:%S"))
 
 # ─── Hyper‐parameter grids ─────────────────────────────────────────────────────
 WINDOWS    = [5]
 QOPTS      = [0.025, 0.05, 0.075]
-CONV_MULS  = [0.5, 1.0, 1.5]
 SL_PCTS    = [0.02, 0.0225, 0.025]
 TP_PCTS    = [0.04, 0.045, 0.05]
 
@@ -21,7 +16,7 @@ SIG_FILES = {
     5: 'data/signals_5d.csv'
 }
 
-# ─── 1) Build price cache once ─────────────────────────────────────────────────
+# ─── 1) Build price_cache once ────────────────────────────────────────────────
 all_sigs = []
 for fn in SIG_FILES.values():
     tmp = pd.read_csv(fn, parse_dates=['timestamp'])
@@ -36,7 +31,7 @@ price_cache = {
     for t in all_sigs['ticker'].unique()
 }
 
-# ─── 2) Screen out low-edge tickers by standalone Sharpe ───────────────────────
+# ─── 2) Screen out low‐edge tickers by standalone Sharpe ──────────────────────
 baseline = pd.read_csv(SIG_FILES[3]).dropna(subset=['agg_score'])
 ticker_sharpes = {}
 for tk, grp in baseline.groupby('ticker'):
@@ -58,19 +53,19 @@ keep = int(len(sorted_t) * 0.8)
 good_tickers = {t for t,_ in sorted_t[:keep]}
 print(f"Screened tickers: {len(sorted_t)} -> {len(good_tickers)} kept")
 
-# ─── 3) Grid search (no volatility filter) ────────────────────────────────────
+# ─── 3) Grid search (with conviction sizing) ─────────────────────────────────
 results = []
-for window, sl, tp, ql, qh, cm, sm in itertools.product(
-    WINDOWS, SL_PCTS, TP_PCTS, QOPTS, QOPTS, CONV_MULS, CONV_MULS
+for window, sl, tp, ql, qh in itertools.product(
+    WINDOWS, SL_PCTS, TP_PCTS, QOPTS, QOPTS
 ):
     if ql >= qh:
         continue
 
-    # load and restrict
-    df = pd.read_csv(SIG_FILES[window]).dropna(subset=['agg_score'])
+    # load & restrict
+    df = pd.read_csv(SIG_FILES[window], parse_dates=['timestamp'])
     df = df[df['ticker'].isin(good_tickers)].copy()
 
-    # per‐ticker percentiles
+    # per‐ticker low/high percentiles
     percs = (
         df.groupby('ticker')['agg_score']
           .quantile([ql, qh])
@@ -79,9 +74,15 @@ for window, sl, tp, ql, qh, cm, sm in itertools.product(
     )
     df = df.merge(percs, left_on='ticker', right_index=True)
 
-    # conviction sizing (abs)
-    df['conv'] = ((df['agg_score'] - df['p_low']) /
-                  (df['p_high'] - df['p_low'])).abs()
+    # conviction factor: abs((agg_score – p_low)/(p_high – p_low)), capped at 1
+    df['conv'] = (
+        (df['agg_score'] - df['p_low']) 
+         .div(df['p_high'] - df['p_low'])
+         .abs()
+         .clip(upper=1.0)
+    )
+    # fill nan values with 0 caused above when p_high == p_low
+    df['conv'] = df['conv'].fillna(0.0)
 
     # generate signals
     df['signal'] = df.apply(
@@ -90,30 +91,28 @@ for window, sl, tp, ql, qh, cm, sm in itertools.product(
         axis=1
     )
 
-    # run backtest
+    # sanity check:
+    assert 'conv' in df.columns, "🔴 conv column missing!"
+
     perf = backtest.run_backtest(df, sl, tp, price_cache)
+
     entry = {
-        'window': window,
-        'q_low': ql, 'q_high': qh,
-        'conv_low': sm, 'conv_high': cm,
-        'stop_loss': sl, 'take_profit': tp,
+        'window':       window,
+        'q_low':        ql,
+        'q_high':       qh,
+        'stop_loss':    sl,
+        'take_profit':  tp,
         'signal_count': int((df['signal'] != 'Neutral').sum())
     }
     entry.update(perf)
     results.append(entry)
 
     s = perf['sharpe'] or 0.0
-    print(f"W={window} Q=({ql},{qh}) SL={sl:.4f} TP={tp:.4f} -> Sharpe {s:.4f}")
+    print(f"W={window}  Q=({ql:.3f},{qh:.3f})  SL={sl:.4f}  TP={tp:.4f}  → Sharpe {s:.4f}")
 
-# ─── Report top 10 ────────────────────────────────────────────────────────────
+# ─── 4) Report top 10 ─────────────────────────────────────────────────────────
 out = pd.DataFrame(results)
-out.to_csv('grid_search_final.csv', index=False)
+out.to_csv('grid_search_with_conviction.csv', index=False)
 
 print("\nTop 10 by Sharpe:")
 print(out.sort_values('sharpe', ascending=False).head(10).to_string(index=False))
-
-end_time = tttt.time()
-elapsed_time = end_time - start_time
-
-mins, secs = divmod(elapsed_time, 60)
-print(f"Total time taken: {int(mins)}m {secs:.2f}s")
