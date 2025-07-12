@@ -12,7 +12,7 @@ SIGNALS_FILE    = os.path.join(DATA_DIR, 'signals_5d.csv')  # default for CLI ru
 START_CASH      = 100_000
 COMMISSION      = 0.001
 STOP_LOSS_PCT   = 0.02    # default stop-loss, overridable
-TAKE_PROFIT_PCT = 0.02    # default take-profit, overridable
+TAKE_PROFIT_PCT = 0.04    # default take-profit, overridable
 TIME_EXIT_DAYS  = 5       # fallback hard exit
 
 # ─── Data helper ───────────────────────────────────────────────────────────────
