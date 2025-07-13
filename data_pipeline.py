@@ -1,5 +1,4 @@
 import os
-import sys
 import pandas as pd
 import requests
 from datetime import datetime, timezone
@@ -27,7 +26,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 mapper = StockMapper()
 all_mappings = mapper.ticker_to_cik # dict: ticker to CIK
 
-# Word limit parameters for text field
+# Word limits for text field
 MAX_NEWS_WORDS = 30
 MAX_REDDIT_WORDS = 75
 MAX_SEC_WORDS = 75
@@ -134,12 +133,13 @@ def fetch_reddit_posts(subreddit: str, ticker: str, limit: int = 100) -> pd.Data
         return pd.DataFrame()
 
     records = []
-    ticker_pattern = re.compile(rf'\b{re.escape(ticker)}\b', re.IGNORECASE)
-    cashtag_pattern = re.compile(rf'\${re.escape(ticker)}\b', re.IGNORECASE)
+    PUNCTUATION_CHARS = r"[.,!?;:()\"]?"
+    ticker_pattern = re.compile(rf'\b{re.escape(ticker)}\b{PUNCTUATION_CHARS}', re.IGNORECASE)
+    cashtag_pattern = re.compile(rf'\${re.escape(ticker)}\b{PUNCTUATION_CHARS}', re.IGNORECASE)
 
     for post in posts:
         ts = datetime.fromtimestamp(post.created_utc, tz=timezone.utc).isoformat()
-        body = post.title + (f" - {post.selftext}" if post.selftext else "")
+        body = (post.title + (f" - {post.selftext}" if post.selftext else "")).strip() or ""
 
         # only keep if ticker appears as a word or as a cashtag
         if not (ticker_pattern.search(body) or cashtag_pattern.search(body)):
