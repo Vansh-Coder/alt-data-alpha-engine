@@ -97,23 +97,20 @@ def fetch_yahoo_news(ticker: str) -> pd.DataFrame:
 
     records = []
     for item in raw:
-        full_content = item.get("content") or {}
-        extracted_content = full_content.get("title") or (),
-        if len(extracted_content) < 1:
-            words = extracted_content[0].split()
-            text = " ".join(words[:MAX_NEWS_WORDS])
-        else:
-            text = ""
-        provider = full_content.get("provider") or {}
+        content = item.get("content") or {}
+        title = content.get("title") or "",
+        summary = content.get("summary") or ""
+        brief_summary = " ".join(summary.split()[:MAX_NEWS_WORDS]) or ""
+        provider = content.get("provider") or {}
         # Extract URL
-        ctu = full_content.get("clickThroughUrl") or {}
-        cano = full_content.get("canonicalUrl") or {}
+        ctu = content.get("clickThroughUrl") or {}
+        cano = content.get("canonicalUrl") or {}
         url = ctu.get("url") or cano.get("url") or ""
         records.append({
-            "timestamp": full_content.get("pubDate"),
+            "timestamp": content.get("pubDate"),
             "ticker": ticker,
             "source": provider.get("displayName") or "",
-            "text": text,
+            "text": brief_summary or title or "",
             "url": url,
         })
     return pd.DataFrame(records)
