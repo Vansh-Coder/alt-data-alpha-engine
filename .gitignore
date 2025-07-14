@@ -1,6 +1,9 @@
 # Environment files
 .env
 
+# Helper shell script (for dev only)
+run_all.sh
+
 # Misc.
 .DS_Store
 __pycache__/
