@@ -70,29 +70,22 @@ class SignalStrategy(bt.Strategy):
             ep     = self.entry_price.get(ticker)
             ed     = self.entry_date.get(ticker)
 
-            # ─── Manage open positions ─────────────────────────────
+            # Manage open positions
             if pos and ep is not None:
-                # ── LONG position management ─────────────────────────
                 if pos > 0:
                     prev_stop = self.trail_stop.get(ticker, ep * (1 - sl))
                     new_stop  = data.high[0] * (1 - sl)
                     self.trail_stop[ticker] = max(prev_stop, new_stop)
-
-                    # trailing stop exit
                     if price < self.trail_stop[ticker]:
                         self.log(f'TRAIL STOP EXIT {ticker} @ {price:.2f}', dt)
                         self.close(data=data)
                         self._clear_position(ticker)
                         continue
-
-                    # take-profit exit
                     if price / ep - 1 >= tp:
                         self.log(f'TP EXIT {ticker} @ {price:.2f}', dt)
                         self.close(data=data)
                         self._clear_position(ticker)
                         continue
-
-                # ── SHORT position management ────────────────────────
                 else:
                     pnl_pct = ep / price - 1
                     if pnl_pct <= -sl or pnl_pct >= tp:
@@ -101,14 +94,13 @@ class SignalStrategy(bt.Strategy):
                         self._clear_position(ticker)
                         continue
 
-                # ── Hard time-based exit ─────────────────────────────
                 if (dt - ed).days >= TIME_EXIT_DAYS:
                     self.log(f'TIME EXIT {ticker} @ {price:.2f}', dt)
                     self.close(data=data)
                     self._clear_position(ticker)
                     continue
 
-            # ─── Entry logic ────────────────────────────────────────
+            # Entry logic
             if pos == 0 and signal in ('Long', 'Short'):
                 conv = float(self.conv_map.get((dt, ticker), 0.0))
                 frac = min(conv, 1.0)
@@ -125,19 +117,17 @@ class SignalStrategy(bt.Strategy):
                 self.entry_price[ticker] = price
                 self.entry_date[ticker]  = dt
 
-            # ─── Exit on reverse/neutral signal ────────────────────
+            # Exit on reverse/neutral signal
             elif pos != 0:
-                reverse = (pos > 0 and signal in ('Short', 'Neutral')) \
-                       or (pos < 0 and signal in ('Long',  'Neutral'))
+                reverse = (pos > 0 and signal in ('Short','Neutral')) or \
+                          (pos < 0 and signal in ('Long','Neutral'))
                 if reverse:
                     self.log(f'SIGNAL EXIT {ticker} @ {price:.2f}', dt)
                     self.close(data=data)
                     self._clear_position(ticker)
 
     def stop(self):
-        # No CLI output here; metrics are extracted separately
-        pass
-
+        pass  # no CLI output
 
 def run_backtest(
     signals_df: pd.DataFrame,
@@ -175,7 +165,7 @@ def run_backtest(
         stop_loss=stop_loss,
         take_profit=take_profit
     )
-    cerebro.addanalyzer(bt.analyzers.SharpeRatio,   _name='sharpe',   timeframe=bt.TimeFrame.Days)
+    cerebro.addanalyzer(bt.analyzers.SharpeRatio,   _name='sharpe', timeframe=bt.TimeFrame.Days)
     cerebro.addanalyzer(bt.analyzers.DrawDown,      _name='drawdown')
     cerebro.addanalyzer(bt.analyzers.TradeAnalyzer, _name='trades')
 
