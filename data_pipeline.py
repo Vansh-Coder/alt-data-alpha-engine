@@ -471,18 +471,21 @@ def fetch_sec_transcripts(cik: str, ticker: str, max_filings: int = 3) -> pd.Dat
 # 4. Combine sources, clean, and save
 
 def build_pipeline():
-    # Tickers to process
+    # Tickers to process (NASDAQ 100)
     tickers = [
-        'AAPL','MSFT','GOOG','AMZN','META','TSLA','NVDA','JPM','JNJ',
-        'PG','UNH','HD','DIS','MA','BAC','XOM','PFE','ADBE','CMCSA',
-        'NFLX','KO','ABT','CSCO','PEP','CVX','INTC','CRM','NKE','MRK',
-        'ORCL','TMO','WMT','ACN','COST','LLY','TXN','MCD','UNP','MDT',
-        'NEE','QCOM','PM','SCHW','AMGN','IBM','BMY','ELV','VRTX','HON',
-        'UPS','C','GE','LIN','LMT','DE','MMM','AXP','BKNG','RTX','PLD',
-        'ADP','BA','SBUX','GILD','BLK','CAT','SPGI','GS','NOW','AMAT',
-        'SYK','ISRG','ZTS','CI','CVS','LRCX','ADI','EL','CB','MDLZ',
-        'MU','TEAM','TGT','USB','CCI','CME','DHR','BDX','ADSK','APD',
-        'EQIX','PNC','CSX','MO','SO','TMUS','SPG','MS','CL','AON'
+        'AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AEP', 'AMAT',
+        'AMD', 'AMGN', 'AMZN', 'ANSS', 'APP', 'ARM', 'ASML', 'AVGO',
+        'AXON', 'AZN', 'BIIB', 'BKNG', 'BKR', 'CCEP', 'CDNS', 'CDW',
+        'CEG', 'CHTR', 'CMCSA', 'COST', 'CPRT', 'CRWD', 'CSCO', 'CSGP',
+        'CSX', 'CTAS', 'CTSH', 'DASH', 'DDOG', 'DXCM', 'EA', 'EXC',
+        'FANG', 'FAST', 'FTNT', 'GEHC', 'GFS', 'GILD', 'GOOG', 'GOOGL',
+        'HON', 'IDXX', 'INTC', 'INTU', 'ISRG', 'KDP', 'KHC', 'KLAC',
+        'LIN', 'LRCX', 'LULU', 'MAR', 'MCHP', 'MDLZ', 'MELI', 'META',
+        'MNST', 'MRVL', 'MSFT', 'MSTR', 'MU', 'NFLX', 'NVDA', 'NXPI',
+        'ODFL', 'ON', 'ORLY', 'PANW', 'PAYX', 'PCAR', 'PDD', 'PEP',
+        'PLTR', 'PYPL', 'QCOM', 'REGN', 'ROP', 'ROST', 'SBUX', 'SHOP',
+        'SNPS', 'TEAM', 'TMUS', 'TSLA', 'TTD', 'TTWO', 'TXN', 'VRSK',
+        'VRTX', 'WBD', 'WDAY', 'XEL', 'ZS'
     ]
 
     # Build cik_map using mapper
