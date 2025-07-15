@@ -41,7 +41,6 @@ def add_conviction_signals(df: pd.DataFrame, q_low: float, q_high: float) -> pd.
     Add per-ticker percentile thresholds, compute conviction factor, and assign new signals.
     """
     df = df.copy()
-    # Compute low/high percentiles per ticker
     percs = (
         df.groupby("ticker")["agg_score"]
           .quantile([q_low, q_high])
@@ -50,7 +49,6 @@ def add_conviction_signals(df: pd.DataFrame, q_low: float, q_high: float) -> pd.
     )
     df = df.merge(percs, left_on="ticker", right_index=True)
 
-    # Conviction: normalized distance from midpoint, capped at 1
     df["conv"] = (
         (df["agg_score"] - df["p_low"])
          .div(df["p_high"] - df["p_low"])
@@ -58,7 +56,6 @@ def add_conviction_signals(df: pd.DataFrame, q_low: float, q_high: float) -> pd.
          .clip(upper=1.0)
     ).fillna(0.0)
 
-    # New signal based on percentiles
     df["signal"] = df.apply(
         lambda r: "Long"  if r["agg_score"] >= r["p_high"]
                   else ("Short" if r["agg_score"] <= r["p_low"] else "Neutral"),
@@ -86,8 +83,7 @@ def screen_tickers(
             external_price_cache=price_cache
         )
         perf = summarize_performance(cerebro, strat, start_date, end_date)
-        sharpe = perf.get("sharpe")
-        if sharpe is not None and sharpe >= min_sharpe:
+        if perf.get("sharpe", None) is not None and perf["sharpe"] >= min_sharpe:
             keep.append(ticker)
     return keep
 
@@ -111,17 +107,28 @@ def save_all_signals(
     out_dir="data"
 ):
     """
-    Compute signals for each window and save:
-      data/signals_1d.csv, signals_3d.csv, signals_5d.csv
+    Compute signals for each window, save individual CSVs, and
+    also produce a combined signals.csv with a 'window' column.
     """
     df = load_sentiment(sentiment_path)
     os.makedirs(out_dir, exist_ok=True)
 
+    combined_frames = []
     for w in windows:
         sig = generate_signals(df, window_days=w)
+        sig["window"] = w
+        # save individual file
         filepath = os.path.join(out_dir, f"signals_{w}d.csv")
         sig.to_csv(filepath, index=False)
         print(f"Saved {filepath}")
+        combined_frames.append(sig)
+
+    # concatenate all windows into one master file
+    combined = pd.concat(combined_frames, ignore_index=True)
+    combined = combined[["window", "timestamp", "ticker", "agg_score", "signal"]]
+    combined_path = os.path.join(out_dir, "signals.csv")
+    combined.to_csv(combined_path, index=False)
+    print(f"Saved combined signals file to {combined_path}")
 
 
 if __name__ == "__main__":
