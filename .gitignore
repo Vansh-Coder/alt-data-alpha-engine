@@ -1,8 +1,9 @@
 # Environment files
 .env
 
-# Helper shell script (for dev only)
+# Helper files (for dev mode only)
 run_all.sh
+test.py
 
 # Misc.
 .DS_Store
