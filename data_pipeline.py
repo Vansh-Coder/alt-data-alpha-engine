@@ -299,6 +299,9 @@ os.makedirs(DATA_DIR, exist_ok=True)
 mapper = StockMapper()
 all_mappings = mapper.ticker_to_cik # dict: ticker to CIK
 
+MAX_REDDIT_WORDS = 75
+MAX_SEC_WORDS = 75
+
 def extract_html_document(document_text):
     """Extracts HTML <TEXT>...</TEXT> for the .htm 8-K block."""
     document_blocks = re.split(r'<DOCUMENT>', document_text, flags=re.IGNORECASE)
@@ -311,7 +314,7 @@ def extract_html_document(document_text):
 
     return None
 
-def extract_key_items_full_text(document_text, max_words=75):
+def extract_key_items_full_text(document_text):
     """Extracts all text under key 'Item X.XX' sections."""
     important_items = {'1.01', '2.02', '4.02', '5.02', '5.07', '8.01'}
 
@@ -340,7 +343,7 @@ def extract_key_items_full_text(document_text, max_words=75):
         section_text = cleaned_text[start:end].strip()
 
         words = section_text.split()
-        truncated = " ".join(words[:max_words])
+        truncated = " ".join(words[:MAX_SEC_WORDS])
 
         summary_parts.append(f"({item_header}) {truncated}")
 
@@ -400,17 +403,22 @@ def fetch_reddit_posts(subreddit: str, ticker: str, limit: int = 100) -> pd.Data
 
     for post in posts:
         ts = datetime.fromtimestamp(post.created_utc, tz=timezone.utc).isoformat()
-        body = post.title + (f" - {post.selftext}" if post.selftext else "")
+        body = (post.title + (f" - {post.selftext}" if post.selftext else "")).strip() or ""
 
         # only keep if ticker appears as a word or as a cashtag
         if not (ticker_pattern.search(body) or cashtag_pattern.search(body)):
             continue
 
+        if body:
+            text = " ".join(body.split()[:MAX_REDDIT_WORDS])
+        else:
+            text = ""
+
         records.append({
             "timestamp": ts,
             "ticker": ticker,
             "source": f"reddit.com/r/{subreddit}",
-            "text": body,
+            "text": text,
         })
 
     return pd.DataFrame(records)
