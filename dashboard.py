@@ -25,14 +25,15 @@ def render_kpis(df: pd.DataFrame, ticker: str):
     d   = df[df["ticker"] == ticker]
     avg = d["agg_score"].mean() if not d.empty else float("nan")
     cnt = int((d["signal"] != "Neutral").sum())
-    c1, c2 = st.columns(2)
+    t, c1, c2 = st.columns(3)
+    t.metric("Stock", f"{ticker}")
     c1.metric("Avg. Sentiment", f"{avg:.3f}")
     c2.metric("Total Signals",   f"{cnt}")
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 st.sidebar.title("⚙️ Signal Explorer")
-st.title("📊 Sentiment Signals Dashboard")
+st.title("📊 Alt Data Alpha Engine")
 
 # Load & filter
 df_all = load_signals_data()
@@ -111,4 +112,7 @@ else:
     st.write("No sentiment data in this range.")
 
 st.markdown("---")
-st.markdown("🔧 *Powered by AI-driven sentiment signals*")
+st.markdown("🔧&nbsp;&nbsp;&nbsp;**Powered by AI-driven sentiment signals**")
+st.markdown("🔄&nbsp;&nbsp;&nbsp;**Updated weekly&nbsp;&nbsp;•&nbsp;&nbsp;Last updated:&nbsp;&nbsp;July 24, 2025**")
+st.markdown("🛠️&nbsp;&nbsp;&nbsp;**Source code on [GitHub](https://github.com/Vansh-Coder)**")
+st.markdown("©️&nbsp;&nbsp;&nbsp;***Vansh Gupta&nbsp;&nbsp;•&nbsp;&nbsp;MIT License***")
