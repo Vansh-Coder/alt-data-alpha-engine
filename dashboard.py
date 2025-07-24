@@ -79,11 +79,15 @@ if not filtered.empty:
     # ─── Average Sentiment Line ────────────────────────────
     line = (
         alt.Chart(df_hourly)
-        .mark_line()
+        .mark_line(point=True)
         .encode(
             x=alt.X("timestamp:T", title="Hour"),
             y=alt.Y("avg_score:Q", title="Avg. Sentiment"),
-            tooltip=["timestamp:T", "avg_score:Q", "signal_count:Q"]
+            tooltip=[
+                alt.Tooltip("timestamp:T", title="Timestamp"),
+                alt.Tooltip("avg_score:Q", title="Avg Sentiment", format=".3f"),
+                alt.Tooltip("signal_count:Q", title="Signal Count")
+            ]
         )
         .properties(height=200, title="Hourly Avg. Sentiment")
     )
