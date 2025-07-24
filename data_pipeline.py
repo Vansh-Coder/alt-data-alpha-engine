@@ -20,15 +20,14 @@ REDDIT_CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")
 REDDIT_USER_AGENT    = os.getenv("REDDIT_USER_AGENT")
 SEC_USER_AGENT       = os.getenv("SEC_USER_AGENT")
 
+MAX_NEWS_PER_TICKER = 20
 MAX_REDDIT_WORDS = 75
 MAX_SEC_WORDS    = 75
+CUTOFF_DAYS      = 7  # keep last 7 days only
 
-# Only keep the last N days
-CUTOFF_DAYS = 30
-
-# ticker→CIK mapper
+# ticker -> CIK mapper
 mapper       = StockMapper()
-all_mappings = mapper.ticker_to_cik  # dict: ticker -> CIK
+all_mappings = mapper.ticker_to_cik
 
 # ─── HTML / EDGAR helpers ──────────────────────────────────────────────────────
 def extract_html_document(document_text):
@@ -68,7 +67,7 @@ def extract_key_items_full_text(document_text):
 
 def fetch_yahoo_news(ticker: str) -> pd.DataFrame:
     try:
-        raw = yf.Ticker(ticker).news or []
+        raw = yf.Ticker(ticker).get_news(count=MAX_NEWS_PER_TICKER, tab="all") or []
     except Exception as e:
         print(f"yfinance news failed {ticker}: {e}")
         return pd.DataFrame()
@@ -87,7 +86,11 @@ def fetch_yahoo_news(ticker: str) -> pd.DataFrame:
     return pd.DataFrame(recs)
 
 
-def fetch_reddit_posts(subreddit: str, ticker: str, limit: int = 100) -> pd.DataFrame:
+def fetch_reddit_posts_for_tickers(subreddit: str, tickers: list, limit: int = 100) -> pd.DataFrame:
+    """
+    Fetch hot posts from `subreddit` once, then for each post,
+    emit one record per ticker that appears in the post (as word or cashtag).
+    """
     reddit = praw.Reddit(
         client_id=REDDIT_CLIENT_ID,
         client_secret=REDDIT_CLIENT_SECRET,
@@ -96,24 +99,37 @@ def fetch_reddit_posts(subreddit: str, ticker: str, limit: int = 100) -> pd.Data
     try:
         posts = reddit.subreddit(subreddit).hot(limit=limit)
     except Exception as e:
-        print(f"Reddit fetch error: {e}")
+        print(f"Error fetching Reddit posts: {e}")
         return pd.DataFrame()
 
-    recs = []
-    ticker_pat  = re.compile(rf'\b{re.escape(ticker)}\b', re.IGNORECASE)
-    cashtag_pat = re.compile(rf'\${re.escape(ticker)}\b', re.IGNORECASE)
+    # Precompile patterns for speed
+    word_patterns    = {t: re.compile(rf'\b{re.escape(t)}\b', re.IGNORECASE) for t in tickers}
+    cashtag_patterns = {t: re.compile(rf'\${re.escape(t)}\b', re.IGNORECASE) for t in tickers}
 
+    records = []
     for post in posts:
         ts   = datetime.fromtimestamp(post.created_utc, tz=timezone.utc).isoformat()
         body = post.title + (f" - {post.selftext}" if post.selftext else "")
-        if not (ticker_pat.search(body) or cashtag_pat.search(body)):
+        if not body.strip():
             continue
+        # Truncate to first MAX_REDDIT_WORDS words
         text = " ".join(body.split()[:MAX_REDDIT_WORDS])
-        recs.append({"timestamp": ts, "ticker": ticker, "source": f"reddit.com/r/{subreddit}", "text": text})
-    return pd.DataFrame(recs)
+
+        # Check each ticker
+        for ticker in tickers:
+            if word_patterns[ticker].search(body) or cashtag_patterns[ticker].search(body):
+                records.append({
+                    "timestamp": ts,
+                    "ticker":    ticker,
+                    "source":    f"reddit.com/r/{subreddit}",
+                    "text":      text
+                })
+    if not records:
+        return pd.DataFrame()
+    return pd.DataFrame(records)
 
 
-def fetch_sec_transcripts(cik: str, ticker: str, max_filings: int = 3) -> pd.DataFrame:
+def fetch_sec_transcripts(cik: str, ticker: str, max_filings: int = 10) -> pd.DataFrame:
     feed_url = f"https://data.sec.gov/submissions/CIK{cik.zfill(10)}.json"
     headers  = {"User-Agent": SEC_USER_AGENT}
     try:
@@ -147,6 +163,7 @@ def fetch_sec_transcripts(cik: str, ticker: str, max_filings: int = 3) -> pd.Dat
 # ─── Orchestrator ─────────────────────────────────────────────────────────────
 
 def build_pipeline():
+    # NASDAQ-100 tickers
     tickers = [
         'AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AEP', 'AMAT', 'AMD',
         'AMGN', 'AMZN', 'APP', 'ARM', 'ASML', 'AVGO', 'AXON', 'AZN', 'BIIB',
@@ -160,13 +177,28 @@ def build_pipeline():
         'QCOM', 'REGN', 'ROP', 'ROST', 'SBUX', 'SHOP', 'SNPS', 'TEAM', 'TMUS',
         'TSLA', 'TTD', 'TTWO', 'TXN', 'VRSK', 'VRTX', 'WBD', 'WDAY', 'XEL', 'ZS'
     ]
-    cik_map = {t: all_mappings[t] for t in tickers if t in all_mappings}
+    cik_map = {t: all_mappings.get(t) for t in tickers}
 
     frames = []
+
+    # 1) news per ticker
     for t in tickers:
         frames.append(fetch_yahoo_news(t))
-        frames.append(fetch_reddit_posts('stocks', t))
-        frames.append(fetch_sec_transcripts(cik_map.get(t,""), t))
+
+    # 2) reddit hot posts once, then split
+    reddit_df = fetch_reddit_posts_for_tickers('stocks', tickers)
+    if not reddit_df.empty:
+        frames.append(reddit_df)
+
+    # 3) SEC filings per ticker
+    for t in tickers:
+        cik = cik_map.get(t)
+        if cik:
+            frames.append(fetch_sec_transcripts(cik, t))
+
+    if not frames:
+        print("No data frames to concatenate.")
+        return
 
     combined = pd.concat(frames, ignore_index=True)
 
@@ -174,20 +206,19 @@ def build_pipeline():
     combined['timestamp'] = pd.to_datetime(combined['timestamp'], utc=True, errors='coerce')
     combined = combined.dropna(subset=['timestamp']).sort_values('timestamp')
 
-    # —— 1) apply 30‑day cutoff ——
+    # —— apply cutoff ——
     cutoff   = datetime.now(timezone.utc) - timedelta(days=CUTOFF_DAYS)
     combined = combined[combined['timestamp'] >= cutoff]
 
     raw_path   = os.path.join(DATA_DIR, 'raw_data.csv')
     combined.to_csv(raw_path, index=False)
-    print(f"Saved raw_data (last {CUTOFF_DAYS}d) to {raw_path}")
+    print(f"Saved raw_data (last {CUTOFF_DAYS} days) to {raw_path}")
 
-    # —— 2) dedupe & save clean ——
-    clean = combined.drop_duplicates(subset=['timestamp','text']).copy()
-    clean = clean[ clean['text'].str.strip().astype(bool) ]
+    clean = combined.drop_duplicates(subset=['timestamp','text'])
+    clean = clean[clean['text'].str.strip().astype(bool)]
     clean_path = os.path.join(DATA_DIR, 'clean_data.csv')
     clean.to_csv(clean_path, index=False)
-    print(f"Saved clean_data (last {CUTOFF_DAYS}d) to {clean_path}")
+    print(f"Saved clean_data (last {CUTOFF_DAYS} days) to {clean_path}")
 
 if __name__ == '__main__':
     build_pipeline()
