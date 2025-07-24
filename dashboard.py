@@ -45,13 +45,18 @@ ticker  = st.sidebar.selectbox("Select Ticker", tickers)
 df_ticker = df_all[df_all["ticker"] == ticker]
 min_date  = df_ticker["timestamp"].dt.date.min()
 max_date  = df_ticker["timestamp"].dt.date.max()
-start_date, end_date = st.sidebar.slider(
-    "Date range",
-    min_value=min_date,
-    max_value=max_date,
-    value=(min_date, max_date),
-    format="YYYY-MM-DD"
-)
+if min_date == max_date:
+    # Only one date available
+    start_date = end_date = min_date
+    st.sidebar.write(f"Date: {min_date}")
+else:
+    start_date, end_date = st.sidebar.slider(
+        "Date range",
+        min_value=min_date,
+        max_value=max_date,
+        value=(min_date, max_date),
+        format="YYYY-MM-DD"
+    )
 
 # Apply date filter
 filtered = df_ticker[
