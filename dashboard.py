@@ -1,6 +1,8 @@
+import os
 import pandas as pd
 import streamlit as st
 import altair as alt
+from datetime import datetime, timezone
 
 # ─── Helper ───────────────────────────────────────────────────────────────────
 
@@ -32,8 +34,15 @@ def render_kpis(df: pd.DataFrame, ticker: str):
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
+st.set_page_config(
+    page_title="Alt Data Alpha Engine",
+    page_icon="🤖",
+    layout="wide",
+    initial_sidebar_state="auto"
+)
+
 st.sidebar.title("⚙️ Signal Explorer")
-st.title("📊 Alt Data Alpha Engine")
+st.title("📊 Alt Data Alpha Engine (NASDAQ-100)")
 
 # Load & filter
 df_all = load_signals_data()
@@ -87,7 +96,7 @@ if not filtered.empty:
         alt.Chart(df_hourly)
         .mark_line(point=True)
         .encode(
-            x=alt.X("timestamp:T", title="Hour"),
+            x=alt.X("timestamp:T", title="Hour / Date"),
             y=alt.Y("avg_score:Q", title="Avg. Sentiment"),
             tooltip=[
                 alt.Tooltip("timestamp:T", title="Timestamp"),
@@ -103,7 +112,7 @@ if not filtered.empty:
         alt.Chart(df_hourly)
         .mark_bar(opacity=0.3)
         .encode(
-            x="timestamp:T",
+            x=alt.X("timestamp:T", title="Hour / Date"),
             y=alt.Y("signal_count:Q", title="Signal Count"),
         )
         .properties(height=100, title="Signals per Hour")
@@ -117,7 +126,19 @@ else:
     st.write("No sentiment data in this range.")
 
 st.markdown("---")
-st.markdown("🔧&nbsp;&nbsp;&nbsp;**Powered by AI-driven sentiment signals**")
-st.markdown("🔄&nbsp;&nbsp;&nbsp;**Updated weekly&nbsp;&nbsp;•&nbsp;&nbsp;Last updated:&nbsp;&nbsp;July 24, 2025**")
+
+# ─── Footer ───────────────────────────────────────────────────────────────────
+
+signals_path = "data/signals.csv"
+mtime = os.path.getatime(signals_path)
+last_updated_dt = datetime.fromtimestamp(mtime, tz=timezone.utc)
+last_updated_str = last_updated_dt.strftime("%B %d, %Y")
+
+st.markdown("📈&nbsp;&nbsp;&nbsp;**Powered by AI-driven sentiment signals across news, social media, and SEC filings**")
+st.markdown(
+    "🔄&nbsp;&nbsp;&nbsp;**Updated twice-weekly"
+    "&nbsp;&nbsp;|&nbsp;&nbsp;Last updated :&nbsp;&nbsp;"
+    f"*{last_updated_str}&nbsp;&nbsp;07:00&nbsp;&nbsp;UTC***"
+)
 st.markdown("🛠️&nbsp;&nbsp;&nbsp;**Source code on [GitHub](https://github.com/Vansh-Coder)**")
 st.markdown("©️&nbsp;&nbsp;&nbsp;***Vansh Gupta&nbsp;&nbsp;•&nbsp;&nbsp;MIT License***")
