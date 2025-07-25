@@ -2,7 +2,7 @@
 
 **AI-driven Alpha Generation with Alternative Data and Sentiment Analysis**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url-here)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://alt-data-alpha-engine.streamlit.app)
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![License](https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine)](LICENSE)
 
