@@ -1,0 +1,53 @@
+name: 🔄 Twice-Weekly Data Refresh
+
+on:
+  # Every Tuesday & Thursday at 07:00 UTC
+  schedule:
+    - cron: "0 7 * * 2,4"
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ✅ Check out repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🧹 Clean out old CSVs & JSONs
+        run: |
+          rm -f data/*.csv
+          rm -f data/*.json
+
+      - name: 🔑 Run data pipeline & backtests
+        env:
+          NASDAQ_USER_AGENT: ${{ secrets.NASDAQ_USER_AGENT }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          python data_pipeline.py
+          python sentiment.py
+          python signals.py
+
+      - name: ✍️ Commit & push updated data files
+        run: |
+          git config --local user.name  "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.csv
+          git diff --staged --quiet || \
+            (git commit -m "chore: twice-weekly data refresh [skip ci]" && git push)
