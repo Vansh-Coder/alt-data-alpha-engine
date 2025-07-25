@@ -1,3 +1,12 @@
-streamlit
 pandas
+numpy
+requests
+openai
+praw
+yfinance
+streamlit
 altair
+backtrader
+python-dotenv
+beautifulsoup4
+sec-cik-mapper
