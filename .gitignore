@@ -1,10 +1,8 @@
 # Environment files
 .env
 
-# Helper files (for dev mode only)
-run_all.sh
-test.py
-
 # Misc.
 .DS_Store
 __pycache__/
+.devcontainer/
+data/grid_search.csv
