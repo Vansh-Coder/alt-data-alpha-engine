@@ -15,6 +15,7 @@ load_dotenv()
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
+NASDAQ_USER_AGENT    = os.getenv("NASDAQ_USER_AGENT")
 REDDIT_CLIENT_ID     = os.getenv("REDDIT_CLIENT_ID")
 REDDIT_CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")
 REDDIT_USER_AGENT    = os.getenv("REDDIT_USER_AGENT")
@@ -28,6 +29,21 @@ CUTOFF_DAYS      = 7  # keep last 7 days only
 # ticker -> CIK mapper
 mapper       = StockMapper()
 all_mappings = mapper.ticker_to_cik
+
+# default NASDAQ-100 tickers
+DEFAULT_NASDAQ_100_TICKERS = [
+    'AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AEP', 'AMAT', 'AMD',
+    'AMGN', 'AMZN', 'APP', 'ARM', 'ASML', 'AVGO', 'AXON', 'AZN', 'BIIB',
+    'BKNG', 'BKR', 'CCEP', 'CDNS', 'CDW', 'CEG', 'CHTR', 'CMCSA', 'COST',
+    'CPRT', 'CRWD', 'CSCO', 'CSGP', 'CSX', 'CTAS', 'CTSH', 'DASH', 'DDOG',
+    'DXCM', 'EA', 'EXC', 'FANG', 'FAST', 'FTNT', 'GEHC', 'GFS', 'GILD',
+    'GOOG', 'GOOGL', 'HON', 'IDXX', 'INTC', 'INTU', 'ISRG', 'KDP', 'KHC',
+    'KLAC', 'LIN', 'LRCX', 'LULU', 'MAR', 'MCHP', 'MDLZ', 'MELI', 'META',
+    'MNST', 'MRVL', 'MSFT', 'MSTR', 'MU', 'NFLX', 'NVDA', 'NXPI', 'ODFL',
+    'ON', 'ORLY', 'PANW', 'PAYX', 'PCAR', 'PDD', 'PEP', 'PLTR', 'PYPL',
+    'QCOM', 'REGN', 'ROP', 'ROST', 'SBUX', 'SHOP', 'SNPS', 'TEAM', 'TMUS',
+    'TSLA', 'TTD', 'TTWO', 'TXN', 'VRSK', 'VRTX', 'WBD', 'WDAY', 'XEL', 'ZS'
+]
 
 # ─── HTML / EDGAR helpers ──────────────────────────────────────────────────────
 def extract_html_document(document_text):
@@ -160,23 +176,34 @@ def fetch_sec_transcripts(cik: str, ticker: str, max_filings: int = 10) -> pd.Da
 
     return pd.DataFrame(recs)
 
+# --- Fetch Latest NASDAQ 100 Tickers ------------------------------------------
+
+def get_nasdaq100_tickers():
+    url = "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+    headers = { "user-agent": NASDAQ_USER_AGENT }
+
+    try:
+        res = requests.get(url, headers=headers, timeout=10)
+        res.raise_for_status()
+        json_data = res.json()
+
+        rows = json_data.get("data", {}).get("data", {}).get("rows", [])
+        if not rows:
+            raise ValueError("Empty or malformed response structure")
+
+        tickers = sorted(row["symbol"] for row in rows if "symbol" in row)
+        return tickers
+
+    except Exception as e:
+        print(f"Failed to fetch latest NASDAQ-100 tickers: {e}")
+        print("Using default tickers instead.")
+        return DEFAULT_NASDAQ_100_TICKERS
+
 # ─── Orchestrator ─────────────────────────────────────────────────────────────
 
 def build_pipeline():
-    # NASDAQ-100 tickers
-    tickers = [
-        'AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AEP', 'AMAT', 'AMD',
-        'AMGN', 'AMZN', 'APP', 'ARM', 'ASML', 'AVGO', 'AXON', 'AZN', 'BIIB',
-        'BKNG', 'BKR', 'CCEP', 'CDNS', 'CDW', 'CEG', 'CHTR', 'CMCSA', 'COST',
-        'CPRT', 'CRWD', 'CSCO', 'CSGP', 'CSX', 'CTAS', 'CTSH', 'DASH', 'DDOG',
-        'DXCM', 'EA', 'EXC', 'FANG', 'FAST', 'FTNT', 'GEHC', 'GFS', 'GILD',
-        'GOOG', 'GOOGL', 'HON', 'IDXX', 'INTC', 'INTU', 'ISRG', 'KDP', 'KHC',
-        'KLAC', 'LIN', 'LRCX', 'LULU', 'MAR', 'MCHP', 'MDLZ', 'MELI', 'META',
-        'MNST', 'MRVL', 'MSFT', 'MSTR', 'MU', 'NFLX', 'NVDA', 'NXPI', 'ODFL',
-        'ON', 'ORLY', 'PANW', 'PAYX', 'PCAR', 'PDD', 'PEP', 'PLTR', 'PYPL',
-        'QCOM', 'REGN', 'ROP', 'ROST', 'SBUX', 'SHOP', 'SNPS', 'TEAM', 'TMUS',
-        'TSLA', 'TTD', 'TTWO', 'TXN', 'VRSK', 'VRTX', 'WBD', 'WDAY', 'XEL', 'ZS'
-    ]
+    # Latest NASDAQ-100 tickers
+    tickers = get_nasdaq100_tickers()
     cik_map = {t: all_mappings.get(t) for t in tickers}
 
     frames = []
