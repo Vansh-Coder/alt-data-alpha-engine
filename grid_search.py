@@ -81,7 +81,7 @@ for window, sl, tp, ql, qh in itertools.product(
 # 4) Save and show top 10 by Sharpe
 out = pd.DataFrame(results)
 os.makedirs('data', exist_ok=True)
-out.to_csv('data/grid_search_with_conviction.csv', index=False)
+out.to_csv('data/grid_search.csv', index=False)
 
 print("\nTop 10 by Sharpe:")
 print(out.sort_values('sharpe', ascending=False).head(10).to_string(index=False))
