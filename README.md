@@ -1,16 +1,16 @@
 <table width="100%">
   <tr>
-    <td valign="middle" width="25%">
-      <a href="https://rag-project-blond.vercel.app">
+    <td valign="middle" width="30%">
+      <a href="https://alt-data-alpha-engine.streamlit.app">
         <img
-          src="frontend/assets/AppIcon.png"
+          src="assets/Logo.png"
           width="200"
           height="200"
           alt="Health Detect AI app icon"
         />
       </a>
     </td>
-    <td valign="middle" width="75%">
+    <td valign="middle" width="70%">
       <h1 style="margin: 0;">
         <a href="https://rag-project-blond.vercel.app">Alt Data Alpha Engine</a>
       </h1>
@@ -78,10 +78,6 @@
           alt="Altair"
         />
         <img
-          src="https://img.shields.io/badge/Docker-2496ED.svg?style=flat-square&logo=docker&logoColor=white"
-          alt="Docker"
-        />
-        <img
           src="https://img.shields.io/badge/GitHub_Actions-2088FF.svg?style=flat-square&logo=github-actions&logoColor=white"
           alt="GitHub Actions"
         />
@@ -90,16 +86,12 @@
           alt="Git"
         />
         <img
-          src="https://img.shields.io/badge/Visual_Studio_Code-007ACC.svg?style=flat-square&logo=visual-studio-code&logoColor=white"
-          alt="VS Code"
+          src="https://img.shields.io/badge/OpenAI-412991.svg?style=flat-square&logo=OpenAI&logoColor=white"
+          alt="OpenAI"
         />
         <img
-          src="https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&logoColor=white"
-          alt="macOS"
-        />
-        <img
-          src="https://img.shields.io/badge/Hetzner_Cloud-D50C2D.svg?style=flat-square"
-          alt="Hetzner Cloud"
+          src="https://img.shields.io/badge/JSON-000000.svg?style=flat-square&logo=JSON&logoColor=white"
+          alt="JSON"
         />
       </p>
     </td>
