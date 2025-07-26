@@ -1,3 +1,111 @@
+<table width="100%">
+  <tr>
+    <td valign="middle" width="25%">
+      <a href="https://rag-project-blond.vercel.app">
+        <img
+          src="frontend/assets/AppIcon.png"
+          width="200"
+          height="200"
+          alt="Health Detect AI app icon"
+        />
+      </a>
+    </td>
+    <td valign="middle" width="75%">
+      <h1 style="margin: 0;">
+        <a href="https://rag-project-blond.vercel.app">Alt Data Alpha Engine</a>
+      </h1>
+      <p style="margin: 0; font-style: italic;">
+        AI-driven Alpha Generation with Alternative Data and Sentiment Analysis
+      </p>
+      <p style="margin-top: 8px;">
+        <img
+          src="https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine?style=flat-square&logo=opensourceinitiative&logoColor=white&color=E92063"
+          alt="License"
+        />
+        <img
+          src="https://img.shields.io/github/languages/top/Vansh-Coder/alt-data-alpha-engine?style=flat-square&color=E92063"
+          alt="Top Language"
+        />
+        <img
+          src="https://img.shields.io/github/languages/count/Vansh-Coder/alt-data-alpha-engine?style=flat-square&color=E92063"
+          alt="Language Count"
+        />
+      </p>
+      <p style="margin-top: 16px; font-style: italic;">
+        Built with the tools and technologies:
+      </p>
+      <p style="margin: 4px 0;">
+        <img
+          src="https://img.shields.io/badge/Python-3776AB.svg?style=flat-square&logo=python&logoColor=white"
+          alt="Python"
+        />
+        <img
+          src="https://img.shields.io/badge/pandas-150458.svg?style=flat-square&logo=pandas&logoColor=white"
+          alt="pandas"
+        />
+        <img
+          src="https://img.shields.io/badge/NumPy-013243.svg?style=flat-square&logo=numpy&logoColor=white"
+          alt="NumPy"
+        />
+        <img
+          src="https://img.shields.io/badge/yfinance-2D3E50.svg?style=flat-square&logo=yahoo&logoColor=white"
+          alt="yfinance"
+        />
+        <img
+          src="https://img.shields.io/badge/PRAW-FF4500.svg?style=flat-square&logo=reddit&logoColor=white"
+          alt="PRAW"
+        />
+        <img
+          src="https://img.shields.io/badge/SEC_Edgar-005288.svg?style=flat-square&logo=sec&logoColor=white"
+          alt="SEC Edgar"
+        />
+        <img
+          src="https://img.shields.io/badge/Transformers-FFDD00.svg?style=flat-square&logo=huggingface&logoColor=black"
+          alt="Transformers"
+        />
+        <img
+          src="https://img.shields.io/badge/Backtrader-FF5733.svg?style=flat-square"
+          alt="Backtrader"
+        />
+      </p>
+      <p style="margin: 4px 0;">
+        <img
+          src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat-square&logo=streamlit&logoColor=white"
+          alt="Streamlit"
+        />
+        <img
+          src="https://img.shields.io/badge/Altair-FFBE33.svg?style=flat-square"
+          alt="Altair"
+        />
+        <img
+          src="https://img.shields.io/badge/Docker-2496ED.svg?style=flat-square&logo=docker&logoColor=white"
+          alt="Docker"
+        />
+        <img
+          src="https://img.shields.io/badge/GitHub_Actions-2088FF.svg?style=flat-square&logo=github-actions&logoColor=white"
+          alt="GitHub Actions"
+        />
+        <img
+          src="https://img.shields.io/badge/Git-F05032.svg?style=flat-square&logo=git&logoColor=white"
+          alt="Git"
+        />
+        <img
+          src="https://img.shields.io/badge/Visual_Studio_Code-007ACC.svg?style=flat-square&logo=visual-studio-code&logoColor=white"
+          alt="VS Code"
+        />
+        <img
+          src="https://img.shields.io/badge/macOS-000000.svg?style=flat-square&logo=apple&logoColor=white"
+          alt="macOS"
+        />
+        <img
+          src="https://img.shields.io/badge/Hetzner_Cloud-D50C2D.svg?style=flat-square"
+          alt="Hetzner Cloud"
+        />
+      </p>
+    </td>
+  </tr>
+</table>
+
 # 📈 Alt Data Alpha Engine
 
 **AI-driven Alpha Generation with Alternative Data and Sentiment Analysis**
