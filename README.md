@@ -15,24 +15,28 @@
         <a href="https://rag-project-blond.vercel.app">Alt Data Alpha Engine</a>
       </h1>
       <p style="margin: 0; font-style: italic;">
-        AI-driven Alpha Generation with Alternative Data and Sentiment Analysis
+        <strong>AI-driven Alpha Generation with Alternative Data and Sentiment Analysis</strong>
       </p>
       <p style="margin-top: 8px;">
+        <a href="https://alt-data-alpha-engine.streamlit.app" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"
+            alt="Open in Streamlit"
+          />
+        </a>
         <img
-          src="https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine?style=flat-square&logo=opensourceinitiative&logoColor=white&color=E92063"
-          alt="License"
-        />
-        <img
-          src="https://img.shields.io/github/languages/top/Vansh-Coder/alt-data-alpha-engine?style=flat-square&color=E92063"
+          src="https://img.shields.io/badge/python-3.10+-E92063.svg"
           alt="Top Language"
         />
-        <img
-          src="https://img.shields.io/github/languages/count/Vansh-Coder/alt-data-alpha-engine?style=flat-square&color=E92063"
-          alt="Language Count"
-        />
+        <a href="LICENSE">
+          <img
+            src="https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine?style=logo=opensourceinitiative&logoColor=white&color=E92063"
+            alt="License"
+          />
+        </a>
       </p>
       <p style="margin-top: 16px; font-style: italic;">
-        Built with the tools and technologies:
+        <strong>Built with the tools and technologies:</strong>
       </p>
       <p style="margin: 4px 0;">
         <img
@@ -58,10 +62,6 @@
         <img
           src="https://img.shields.io/badge/SEC_Edgar-005288.svg?style=flat-square&logo=sec&logoColor=white"
           alt="SEC Edgar"
-        />
-        <img
-          src="https://img.shields.io/badge/Transformers-FFDD00.svg?style=flat-square&logo=huggingface&logoColor=black"
-          alt="Transformers"
         />
         <img
           src="https://img.shields.io/badge/Backtrader-FF5733.svg?style=flat-square"
@@ -98,24 +98,22 @@
   </tr>
 </table>
 
-# 📈 Alt Data Alpha Engine
+## 📈 Live Dashboard
 
-**AI-driven Alpha Generation with Alternative Data and Sentiment Analysis**
+👉 [**Launch the Dashboard ↗**](https://alt-data-alpha-engine.streamlit.app)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://alt-data-alpha-engine.streamlit.app)
-[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
-[![License](https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine)](LICENSE)
+*Updated twice weekly: Every Tuesday and Thursday at 07:00 UTC.*
 
 ---
 
 ## 🚀 Overview
 
-The **Alt Data Alpha Engine** utilizes **alternative data sources**—including financial news, Reddit discussions, and SEC filings—combined with advanced **sentiment analysis** and rigorous quantitative backtesting to identify profitable trading signals.
+The **Alt Data Alpha Engine** utilizes **alternative data sources** - including financial news, Reddit discussions, and SEC filings-combined with advanced **sentiment analysis** and rigorous quantitative backtesting to identify profitable trading signals.
 
 **Key components**:
 
 - **Alternative Data Collection**: Real-time data retrieval from Yahoo Finance, Reddit, and SEC Edgar.
-- **Sentiment Scoring**: NLP-driven sentiment quantification using transformer-based models.
+- **Sentiment Scoring**: NLP-driven sentiment quantification using OpenAI models.
 - **Signal Generation**: Quantile-based long/short signals with conviction scoring.
 - **Backtesting**: Robust trading strategy validation with Backtrader.
 - **Interactive Dashboard**: Streamlit-powered dashboard for detailed insights.
@@ -134,20 +132,12 @@ The **Alt Data Alpha Engine** utilizes **alternative data sources**—including 
 
 ---
 
-## 📊 Live Dashboard
-
-👉 [**Launch the Dashboard 🚀**](https://alt-data-alpha-engine.streamlit.app)
-
-*Updated twice weekly: Every Tuesday and Thursday at 07:00 UTC.*
-
----
-
 ## 🛠️ Tech Stack
 
 | Component                | Technologies Used                                           |
 |--------------------------|-------------------------------------------------------------|
 | **Data Collection**      | Yahoo Finance (`yfinance`), Reddit (`PRAW`), SEC Edgar API  |
-| **Sentiment Analysis**   | Transformers, Python, Pandas, NumPy                         |
+| **Sentiment Analysis**   | OpenAI, Python, Pandas, NumPy                               |
 | **Signal Generation**    | Pandas, NumPy                                               |
 | **Backtesting**          | Backtrader, Pandas, NumPy                                   |
 | **Dashboard & Visualization** | Streamlit, Altair                                      |
@@ -162,6 +152,8 @@ The **Alt Data Alpha Engine** utilizes **alternative data sources**—including 
 - Python 3.10 or newer
 - Reddit API credentials ([Create here](https://www.reddit.com/prefs/apps))
 - SEC Edgar API User Agent
+- OpenAI API key
+- NASDAQ API User Agent
 - Streamlit account (optional for hosting)
 
 ### 💻 Installation
@@ -188,6 +180,8 @@ REDDIT_CLIENT_ID=your_reddit_client_id
 REDDIT_CLIENT_SECRET=your_reddit_client_secret
 REDDIT_USER_AGENT=your_reddit_user_agent
 SEC_USER_AGENT=your_sec_user_agent
+OPENAI_API_KEY=your_openai_api_key
+NASDAQ_USER_AGENT=your_nasdaq_user_agent
 ```
 
 ### 🚀 Running the Pipeline
@@ -198,7 +192,11 @@ Execute each script sequentially to build your dataset and signals:
 python data_pipeline.py
 python sentiment_analysis.py
 python signals.py
-python backtest.py
+```
+
+For local backtesting (optional):
+
+```bash
 python grid_search.py
 ```
 
@@ -217,7 +215,7 @@ Then open: [`http://localhost:8501`](http://localhost:8501)
 ## 🔄 Automation with GitHub Actions
 
 Automated data updates occur twice weekly (Tuesday & Thursday at 07:00 UTC).  
-Configuration located in: `.github/workflows/data-refresh.yml`
+Configuration located in: `.github/workflows/update_pipeline.yml`
 
 ---
 
@@ -225,13 +223,14 @@ Configuration located in: `.github/workflows/data-refresh.yml`
 
 ```
 alt-data-alpha-engine
-├── data_pipeline.py           # Fetch alternative data
+├── data_pipeline.py           # Fetch latest alternative data
 ├── sentiment_analysis.py      # NLP-based sentiment analysis
 ├── signals.py                 # Generate signals
 ├── backtest.py                # Backtesting strategy implementation
 ├── grid_search.py             # Hyperparameter tuning
 ├── dashboard.py               # Streamlit dashboard interface
 ├── data/                      # Data directory
+├── assets/                    # Assets directory
 ├── .github/workflows/         # Automation workflows
 ├── .env                       # Credentials and API configs
 └── requirements.txt           # Dependencies
@@ -247,9 +246,9 @@ alt-data-alpha-engine
 
 ## 🌟 About the Author
 
-- **Vansh Gupta**  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vansh-gupta-22b226224/)
-  [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?&style=flat-square&logo=github&logoColor=white)](https://github.com/Vansh-Coder)
+- **Vansh Gupta** - Full-stack AI/ML engineer & software developer.  
+  GitHub: [@Vansh-Coder](https://github.com/Vansh-Coder)  
+  Email: vgupta95@asu.edu
 
 ---
 
