@@ -18,7 +18,7 @@
         <strong>AI-driven Alpha Generation with Alternative Data and Sentiment Analysis</strong>
       </p>
       <p style="margin-top: 8px;">
-        <a href="https://alt-data-alpha-engine.streamlit.app" target="_blank" rel="noopener noreferrer">
+        <a href="https://alt-data-alpha-engine.streamlit.app">
           <img
             src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"
             alt="Open in Streamlit"
