@@ -6,13 +6,13 @@
           src="assets/Logo.png"
           width="225"
           height="225"
-          alt="Health Detect AI app icon"
+          alt="Alt Data Alpha Engine Logo"
         />
       </a>
     </td>
     <td valign="middle" width="70%">
       <h1 style="margin: 0;">
-        <a href="https://rag-project-blond.vercel.app">Alt Data Alpha Engine</a>
+        <a href="https://alt-data-alpha-engine.streamlit.app">Alt Data Alpha Engine</a>
       </h1>
       <p style="margin: 0; font-style: italic;">
         <strong>AI-driven Alpha Generation with Alternative Data and Sentiment Analysis</strong>
