@@ -4,8 +4,8 @@
       <a href="https://alt-data-alpha-engine.streamlit.app">
         <img
           src="assets/Logo.png"
-          width="200"
-          height="200"
+          width="225"
+          height="225"
           alt="Health Detect AI app icon"
         />
       </a>
@@ -240,7 +240,7 @@ alt-data-alpha-engine
 
 ## 📸 Dashboard Preview
 
-![Dashboard Example](screenshots/dashboard_example.png)
+![Dashboard Preview](assets/Dashboard_Preview.png)
 
 ---
 
