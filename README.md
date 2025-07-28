@@ -1,7 +1,7 @@
 <table width="100%">
   <tr>
     <td valign="middle" width="30%">
-      <a href="https://alt-data-alpha-engine.streamlit.app">
+      <a href="https://alt-data-alpha-engine.xyz">
         <img
           src="assets/Logo.png"
           width="225"
@@ -12,13 +12,13 @@
     </td>
     <td valign="middle" width="70%">
       <h1 style="margin: 0;">
-        <a href="https://alt-data-alpha-engine.streamlit.app">Alt Data Alpha Engine</a>
+        <a href="https://alt-data-alpha-engine.xyz">Alt Data Alpha Engine</a>
       </h1>
       <p style="margin: 0; font-style: italic;">
         <strong>AI-driven Alpha Generation with Alternative Data and Sentiment Analysis</strong>
       </p>
       <p style="margin-top: 8px;">
-        <a href="https://alt-data-alpha-engine.streamlit.app"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit" /></a>
+        <a href="https://alt-data-alpha-engine.xyz"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit" /></a>
         <img
           src="https://img.shields.io/badge/python-3.10+-E92063.svg"
           alt="Top Language"
@@ -103,7 +103,7 @@
 
 ## 📈 Live Dashboard
 
-👉 [**Launch the Dashboard ↗**](https://alt-data-alpha-engine.streamlit.app)
+👉 [**Launch the Dashboard ↗**](https://alt-data-alpha-engine.xyz)
 
 *Updated twice weekly: Every Tuesday and Thursday at 07:00 UTC.*
 
