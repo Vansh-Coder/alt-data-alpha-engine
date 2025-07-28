@@ -18,19 +18,13 @@
         <strong>AI-driven Alpha Generation with Alternative Data and Sentiment Analysis</strong>
       </p>
       <p style="margin-top: 8px;">
-        <img
-          src="https://img.shields.io/github/actions/workflow/status/Vansh-Coder/alt-data-alpha-engine/update_pipeline.yml?label=GitHub%20Actions&color=E92063"
-          alt="GitHub Actions"
-        />
+        <a href="https://github.com/Vansh-Coder/alt-data-alpha-engine/actions"><img src="https://img.shields.io/github/actions/workflow/status/Vansh-Coder/alt-data-alpha-engine/update_pipeline.yml?label=GitHub%20Actions&color=E92063" alt="GitHub Actions" /></a>
         <img
           src="https://img.shields.io/badge/python-3.10+-E92063.svg"
           alt="Python 3.10+"
         />
-        <a href="LICENSE"><img src="https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine?style=logo=opensourceinitiative&logoColor=white&color=E92063" alt="License"/></a>
-        <img
-          src="https://img.shields.io/github/last-commit/Vansh-Coder/alt-data-alpha-engine?color=E92063"
-          alt="Last Commit"
-        />
+        <a href="LICENSE"><img src="https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine?style=logo=opensourceinitiative&logoColor=white&color=E92063" alt="License" /></a>
+        <a href="https://github.com/Vansh-Coder/alt-data-alpha-engine/commits/main"><img src="https://img.shields.io/github/last-commit/Vansh-Coder/alt-data-alpha-engine?color=E92063" alt="Last Commit" /></a>
       </p>
       <p style="margin-top: 16px; font-style: italic;">
         <strong>Built with the tools and technologies:</strong>
