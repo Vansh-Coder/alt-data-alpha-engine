@@ -120,7 +120,7 @@ The **Alt Data Alpha Engine** utilizes **alternative data sources** - including 
 - **Signal Generation**: Quantile-based long/short signals with conviction scoring.
 - **Backtesting**: Robust trading strategy validation with Backtrader.
 - **Interactive Dashboard**: Streamlit-powered dashboard for detailed insights.
-- **Automated Pipeline**: Regular automated data refresh via GitHub Actions.
+- **Automated Pipeline**: Regular automated data refresh and deployment to Hetzner VPS via GitHub Actions.
 
 ---
 
@@ -144,6 +144,7 @@ The **Alt Data Alpha Engine** utilizes **alternative data sources** - including 
 | **Signal Generation**    | Pandas, NumPy                                               |
 | **Backtesting**          | Backtrader, Pandas, NumPy                                   |
 | **Dashboard & Visualization** | Streamlit, Altair                                      |
+| **Hosting & Infrastructure** | Hetzner Cloud VPS, Nginx, Systemd, Certbot (HTTPS)      |
 | **Automation & CI/CD**   | GitHub Actions                                              |
 
 ---
@@ -157,7 +158,7 @@ The **Alt Data Alpha Engine** utilizes **alternative data sources** - including 
 - SEC Edgar API User Agent
 - OpenAI API key
 - NASDAQ API User Agent
-- Streamlit account (optional for hosting)
+- Hetzner Cloud VPS (optional for hosting)
 
 ### 💻 Installation
 
