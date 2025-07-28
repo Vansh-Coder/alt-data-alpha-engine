@@ -51,3 +51,14 @@ jobs:
           git add data/*.csv
           git diff --staged --quiet || \
             (git commit -m "chore: twice-weekly data refresh [skip ci]" && git push)
+
+      - name: 🚀 Deploy to VPS & restart service
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.DEPLOY_KEY }}
+          script: |
+            cd ~/alt-data-alpha-engine
+            git pull
+            sudo systemctl restart streamlit
