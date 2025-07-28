@@ -18,17 +18,19 @@
         <strong>AI-driven Alpha Generation with Alternative Data and Sentiment Analysis</strong>
       </p>
       <p style="margin-top: 8px;">
-        <a href="https://alt-data-alpha-engine.xyz"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit" /></a>
+        <img
+          src="https://img.shields.io/github/actions/workflow/status/Vansh-Coder/alt-data-alpha-engine/update_pipeline.yml?label=GitHub%20Actions&color=E92063"
+          alt="GitHub Actions"
+        />
         <img
           src="https://img.shields.io/badge/python-3.10+-E92063.svg"
-          alt="Top Language"
+          alt="Python 3.10+"
         />
-        <a href="LICENSE">
-          <img
-            src="https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine?style=logo=opensourceinitiative&logoColor=white&color=E92063"
-            alt="License"
-          />
-        </a>
+        <a href="LICENSE"><img src="https://img.shields.io/github/license/Vansh-Coder/alt-data-alpha-engine?style=logo=opensourceinitiative&logoColor=white&color=E92063" alt="License"/></a>
+        <img
+          src="https://img.shields.io/github/last-commit/Vansh-Coder/alt-data-alpha-engine?color=E92063"
+          alt="Last Commit"
+        />
       </p>
       <p style="margin-top: 16px; font-style: italic;">
         <strong>Built with the tools and technologies:</strong>
