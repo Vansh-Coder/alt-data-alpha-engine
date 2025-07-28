@@ -85,8 +85,16 @@
           alt="OpenAI"
         />
         <img
-          src="https://img.shields.io/badge/JSON-000000.svg?style=flat-square&logo=JSON&logoColor=white"
-          alt="JSON"
+          src="https://img.shields.io/badge/Hetzner_Cloud-009EE3.svg?style=flat-square"
+          alt="Hetzner Cloud"
+        />
+        <img
+          src="https://img.shields.io/badge/Nginx-009639.svg?style=flat-square&logo=nginx&logoColor=white"
+          alt="Nginx"
+        />
+        <img
+          src="https://img.shields.io/badge/Let's_Encrypt-000000.svg?style=flat-square&logo=letsencrypt&logoColor=white"
+          alt="Let's Encrypt"
         />
       </p>
     </td>
