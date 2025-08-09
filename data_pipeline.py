@@ -48,6 +48,8 @@ DEFAULT_NASDAQ_100_TICKERS = [
 # ─── HTML / EDGAR helpers ──────────────────────────────────────────────────────
 def extract_html_document(document_text):
     """Extracts the <TEXT>…</TEXT> block for 8-K filings."""
+    if not document_text:
+        return ""
     blocks = re.split(r'<DOCUMENT>', document_text, flags=re.IGNORECASE)
     for blk in blocks:
         if re.search(r'<TYPE>\s*8-K', blk, re.IGNORECASE) and re.search(r'<FILENAME>.*\.htm', blk, re.IGNORECASE):
@@ -169,7 +171,11 @@ def fetch_sec_transcripts(cik: str, ticker: str, max_filings: int = 10) -> pd.Da
         except Exception:
             continue
         html = extract_html_document(full)
+        if not html:
+            continue
         txt  = extract_key_items_full_text(html)
+        if not txt.strip():
+            continue
         dt   = datetime.fromisoformat(date).replace(tzinfo=timezone.utc).isoformat()
         recs.append({"timestamp": dt, "ticker": ticker, "source":"SEC-EDGAR-8K", "text": txt})
         cnt += 1
