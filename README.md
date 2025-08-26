@@ -105,6 +105,12 @@
 
 ---
 
+## 📸 Dashboard Preview
+
+![Dashboard Preview](assets/Dashboard_Preview.png)
+
+---
+
 ## 🚀 Overview
 
 The **Alt Data Alpha Engine** utilizes **alternative data sources** - including financial news, Reddit discussions, and SEC filings-combined with advanced **sentiment analysis** and rigorous quantitative backtesting to identify profitable trading signals.
@@ -238,15 +244,10 @@ alt-data-alpha-engine
 
 ---
 
-## 📸 Dashboard Preview
-
-![Dashboard Preview](assets/Dashboard_Preview.png)
-
----
-
 ## 🌟 About the Author
 
-- **Vansh Gupta** - Full-stack AI/ML engineer & software developer.  
+- **Vansh Gupta** - Full-stack Developer and AI/ML Engineer.  
+  Website: [vanshcoder.com](https://vanshcoder.com)  
   GitHub: [@Vansh-Coder](https://github.com/Vansh-Coder)  
   Email: vgupta95@asu.edu
 
